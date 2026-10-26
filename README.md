@@ -153,6 +153,31 @@ differ from the previous script's `lowf` names. It is not a fresh execution log
 for this version, and its exclusion and repair counts do not describe the new
 importer. Its dense-grid shrinkage percentages are not sensor-failure rates.
 
+## Evaluation notes
+
+REDD is a foundational NILM benchmark and remains useful for historical
+comparison, reproduction, and focused method development. Two companion
+technical notes discuss how measurement conditions and preprocessing affect the
+scope of an evaluation:
+
+- [One-page summary](docs/redd_nilm_tldr.pdf)
+- [Detailed evaluation notes](docs/redd_nilm_validation_white_paper.pdf)
+
+Both are dated **25 October 2026, version 1.1**. They review published descriptions
+and archived processing records; they do not report a full replay of the raw
+REDD archive. The notes distinguish dataset limitations from transformations in
+Stephen Makonin's archived 2015 importer. Their quantitative log results describe
+that historical pipeline, not raw REDD error rates or sensor data loss, and do
+not establish that any REDD publication used those repairs. The current Python 3
+importer preserves the observed mains legs and does not repair or reconstruct
+them from target channels.
+
+**Disclosure:** Stephen Makonin coauthored AMPds2, RAE, and R1Hz. The comparisons
+discuss complementary validation roles, not a universal ranking of dataset
+accuracy. Each dataset's actual release, channels, and measurement assumptions
+still require inspection. Editable LaTeX sources and supporting data are
+described in [the documentation guide](docs/README.md).
+
 ## Run the tests
 
 The tests use small synthetic files and require no REDD download or third-party

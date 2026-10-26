@@ -1,0 +1,11 @@
+\usepackage{fontspec}
+\IfFileExists{fonts/TNR-Regular.ttf}{%
+  \setmainfont{TNR-Regular.ttf}[Path=fonts/,BoldFont=TNR-Bold.ttf,ItalicFont=TNR-Italic.ttf,BoldItalicFont=TNR-BoldItalic.ttf]
+  \setsansfont{TNR-Regular.ttf}[Path=fonts/,BoldFont=TNR-Bold.ttf,ItalicFont=TNR-Italic.ttf,BoldItalicFont=TNR-BoldItalic.ttf]
+  \setmonofont{TNR-Regular.ttf}[Path=fonts/]
+}{%
+  \setmainfont{Times New Roman}
+  \setsansfont{Times New Roman}
+  \setmonofont{Times New Roman}
+}
+\usepackage[italic]{mathastext}

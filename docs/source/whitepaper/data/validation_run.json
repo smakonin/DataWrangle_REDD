@@ -1,0 +1,56 @@
+{
+  "validation": {
+    "status": "passed",
+    "checks": [
+      "House 1: span, source-channel counts, row partition, shrinkage rounding, rebuild pair arithmetic, timestamp uniqueness/order/bounds, and 74 fallback count reconcile.",
+      "House 2: span, source-channel counts, row partition, shrinkage rounding, rebuild pair arithmetic, timestamp uniqueness/order/bounds, and 25 fallback count reconcile.",
+      "House 3: span, source-channel counts, row partition, shrinkage rounding, rebuild pair arithmetic, timestamp uniqueness/order/bounds, and 156 fallback count reconcile.",
+      "House 4: span, source-channel counts, row partition, shrinkage rounding, rebuild pair arithmetic, timestamp uniqueness/order/bounds, and 78 fallback count reconcile.",
+      "House 5: span, source-channel counts, row partition, shrinkage rounding, rebuild pair arithmetic, timestamp uniqueness/order/bounds, and 19 fallback count reconcile.",
+      "House 6: span, source-channel counts, row partition, shrinkage rounding, rebuild pair arithmetic, timestamp uniqueness/order/bounds, and 124 fallback count reconcile.",
+      "All 476 fallback changes are increases; pooled counters and event count reconcile."
+    ],
+    "house_count": 6,
+    "paired_fallback_count": 476
+  },
+  "overall": {
+    "grid_rows": 19986143,
+    "observed_mains_channel1_rows": 7056896,
+    "exported_rows": 1797457,
+    "no_timestamp_grid_rows": 12929247,
+    "incomplete_grouped_rows": 5259439,
+    "lead_substitutions": 1381,
+    "lag_substitutions": 1001,
+    "fallback_rebuilds": 476,
+    "all_substitutions_and_rebuilds": 2858,
+    "houses": 6,
+    "grid_span_house_days": 231.32109953703704,
+    "observed_mains_row_density_of_grid": 0.35308943801713016,
+    "exported_fraction_of_grid": 0.08993516157669841,
+    "exported_fraction_of_observed_mains_rows": 0.25470929428462596,
+    "no_timestamp_fraction_of_grid": 0.6469105619828698,
+    "incomplete_fraction_of_grid": 0.26315427644043177,
+    "incomplete_fraction_of_observed_mains_rows": 0.745290705715374,
+    "altered_fraction_of_exported_rows": 0.0015900241285326992,
+    "fallback_fraction_of_exported_rows": 0.0002648185742412753
+  },
+  "overall_fallback_delta": {
+    "count": 476,
+    "min": 3,
+    "median": 301.0,
+    "p90": 1772.5,
+    "p95": 2136.5,
+    "max": 5116,
+    "mean": 624.0714285714286
+  },
+  "files": [
+    "data_dictionary.json",
+    "fallback_delta_histogram.csv",
+    "fallback_distributions.csv",
+    "fallback_rebuild_events.csv",
+    "house_summary.csv",
+    "largest_fallback_changes.csv",
+    "log_statistics.json",
+    "validation_run.json"
+  ]
+}
