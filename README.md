@@ -190,7 +190,9 @@ acquisition pipeline, and do not establish that another publication used those
 repairs. The current importer preserves observed mains and does not repair or
 reconstruct them from target channels. Reviewed aggregate data, provenance, and
 reproduction guidance are linked from [the documentation guide](docs/README.md);
-the raw data and generated per-record exports are not distributed here.
+the full-audit raw channel files and generated observation exports are not
+distributed here. Historical public-log excerpts, including logged before/after
+readings from the old importer, remain included.
 
 **Disclosure:** Stephen Makonin coauthored AMPds2, RAE, and R1Hz. The comparisons
 discuss complementary validation roles, not a universal ranking of dataset

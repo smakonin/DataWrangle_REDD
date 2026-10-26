@@ -55,8 +55,10 @@ data for the particular validation question.
   full source scan requires a separately obtained original REDD release; the
   public aggregate tables alone do not reproduce the raw-value comparisons.
 
-The repository does not distribute the original raw archive, channel values,
-per-record masks, diagnostic databases, or generated import exports. The three
+The full audit does not redistribute the raw archive, channel files, per-record
+masks, diagnostic databases, or generated observation exports. Previously public
+historical-log excerpts, including logged before/after readings, remain included
+as evidence of the old importer's behavior. The three
 new actual-data figures complement the retained historical-log figures. Consult
 the supplied analysis guidance before running the executed scripts: some retain
 the original local defaults and expect the documented nested layout. Use new

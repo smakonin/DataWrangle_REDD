@@ -49,8 +49,15 @@ def numeric(value):
     return None if value is None else float(value)
 
 raw = json.loads((RAW / "summary.json").read_text())
-execution = json.loads((HERE / "import_execution.json").read_text())
-assert execution["status"] == "success"
+if sorted(record["house"] for record in raw["house_summary"]) != list(range(1, 7)):
+    raise ValueError("The summary requires a raw audit of all six REDD houses.")
+# The portable direct-import command writes per-house manifests, but no wrapper
+# execution record. A retained wrapper record must still indicate success.
+execution_path = HERE / "import_execution.json"
+if execution_path.exists():
+    execution = json.loads(execution_path.read_text())
+    if execution["status"] != "success":
+        raise ValueError("The retained importer execution did not succeed.")
 intervals = {}
 for row in read_csv(RAW / "interval_histogram.csv"):
     key = (int(row["house"]), int(row["channel"]))
@@ -170,7 +177,7 @@ pooled.update({
     "shared_connected_fraction_of_mains_envelopes": pooled["all_channel_connected_60_seconds"] / pooled["mains_envelope_seconds"],
     "negative_magnitude_median": numeric(quantile(all_negative, .5)),
     "negative_magnitude_p90": numeric(quantile(all_negative, .9)),
-    "negative_magnitude_max": numeric(max(all_negative)),
+    "negative_magnitude_max": numeric(max(all_negative, default=None)),
 })
 (OUT / "summary.json").write_text(json.dumps({"scope": "Fresh raw-archive audit and unchanged importer outputs",
                                              "pooled": pooled, "houses": summary_rows,

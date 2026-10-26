@@ -1,0 +1,35 @@
+{
+  "scope": "Corrected summarizer rerun on the existing full six-house audit outputs, without rerunning the importer or changing measurements",
+  "summarizer_sha256": "b4e94bf8d365814c8b698bac8ebf35a0fd9e89eefc824ec610feb74fc26ba0f6",
+  "all_summary_outputs_byte_identical": true,
+  "checks": [
+    {
+      "file": "balance_by_house.csv",
+      "sha256": "24baf133cb6894560b90f801e7c42cf2b000f737d7355e49ec1eda05154791e0",
+      "byte_identical": true
+    },
+    {
+      "file": "channel_intervals.csv",
+      "sha256": "8a5816537d7e3c52d41ef4271618da3deb5bc34a9b432eeb8fb0a3702b822410",
+      "byte_identical": true
+    },
+    {
+      "file": "house_summary.csv",
+      "sha256": "6c96f5c77796f1158cb947d2d55d907b7c352a6b684c293ad61c8939c3221953",
+      "byte_identical": true
+    },
+    {
+      "file": "negative_residual_events.csv",
+      "sha256": "f7144f6486f081c10cd46a52eb533fa5db7df3ad34030b5488771721acf7de64",
+      "byte_identical": true
+    },
+    {
+      "file": "summary.json",
+      "sha256": "0bfaca9a881bd27e9c953e5396edf100506d3fa5dbe62f11796071c9c2dc7dcb",
+      "byte_identical": true
+    }
+  ],
+  "archive_sha256": "9911f3fd7d8c7fe89a3ce4634374917fa52a536103cd203cd6e7fa7ccb0ef420",
+  "optional_execution_record_absent": true,
+  "original_summarizer_sha256": "13f3f60d98fad69950d3c3d93aaa5191a4060d8606a410fa30bbcab74f25c8ca"
+}

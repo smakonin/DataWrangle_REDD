@@ -1,7 +1,12 @@
 # Fresh full-archive audit: version 1.2
 
-This folder preserves the executed analysis code and a snapshot of the merged
-importer. The nested work/ layout preserves the executed scripts' relative
+This folder preserves the analysis code and a snapshot of the merged importer.
+The final-review portability correction to summarize_results.py allows a direct
+import without the optional wrapper execution record, checks the six-house scope,
+and handles a run with no negative residuals. The corrected summarizer was rerun
+on the full audit outputs and reproduced all published summary files byte for
+byte. The other source snapshots retain the originally executed implementations.
+The nested work/ layout preserves the executed scripts' relative
 helper imports. The importer SHA-256 identifies the implementation independently
 of an enclosing checkout's current Git revision.
 
@@ -19,7 +24,9 @@ official checksum.
 ## Reproduce
 
 Python 3.10+ and its standard library are sufficient. From this folder, replace
-/path/REDD with the source root containing low_freq.tar.bz2 and low_freq/:
+/path/REDD with the source root containing low_freq.tar.bz2, low_freq/, and the
+release's supporting readme.txt and kolter-kddsust11.pdf. The archive checker
+fingerprints both supporting documents and reads the README's release metadata:
 
     python3 work/redd_full_audit/verify_archive.py --dataset-root /path/REDD
     python3 work/DataWrangle_REDD/Import_REDD_dataset.py --input-dir /path/REDD/low_freq --output-dir work/redd_full_audit/imported
@@ -32,6 +39,8 @@ CSV/mask files and SQLite staging. Generated raw-derived files are local working
 material and are excluded from publication. The original run_importer.py is
 retained for execution traceability; it queries Git and records the enclosing
 checkout revision, so the direct importer command above is more portable.
+The summarizer validates per-house manifest counts and does not require the
+wrapper's import_execution.json; if that record exists, it must report success.
 
 The executed source snapshots retain their original local default locations;
 the explicit command-line paths above override those defaults. The audit does

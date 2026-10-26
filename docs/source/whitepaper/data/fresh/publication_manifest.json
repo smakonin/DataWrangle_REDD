@@ -19,13 +19,14 @@
     "source_files.csv": "503289835d1fe542cf74a011077f45115f14c93880a661ae552ca829c0362568",
     "source_order_summary.json": "2a3529492cc433d5a91b93c0d6fd8f385541ecc586fc7cdf0f8bf994341f20f6",
     "summary.json": "0bfaca9a881bd27e9c953e5396edf100506d3fa5dbe62f11796071c9c2dc7dcb",
-    "threshold_spans.csv": "5a230aafdd0b9acba9dd6e7f8c170a37359844c0c4764b87ed3b6f9908516c0d"
+    "threshold_spans.csv": "5a230aafdd0b9acba9dd6e7f8c170a37359844c0c4764b87ed3b6f9908516c0d",
+    "reproduction_verification.json": "37de718f11c262fb552826f2619fb90ac386fca0b093418eff58fdf1d576b695"
   },
   "executed_code": {
     "work/DataWrangle_REDD/Import_REDD_dataset.py": "a0e529ca175fdcde3209d4562af6ce7304af233d1ca8ca948f9537f0e9198954",
     "work/redd_full_audit/audit_raw.py": "a7ac5d66aad35dcadb33c994a185683711b1dd099dc33bc5b5e2593588f5bbb3",
     "work/redd_full_audit/run_importer.py": "61b6289889f2d11f8a40265cb533d4bdda22d1bcf30ec1911cad8ab5b700a14e",
-    "work/redd_full_audit/summarize_results.py": "13f3f60d98fad69950d3c3d93aaa5191a4060d8606a410fa30bbcab74f25c8ca",
+    "work/redd_full_audit/summarize_results.py": "b4e94bf8d365814c8b698bac8ebf35a0fd9e89eefc824ec610feb74fc26ba0f6",
     "work/redd_full_audit/test_audit_raw.py": "7839fce0f5432de9049b8bc19e9fd3bc14d02c94997fc8f2037a82cf99aa9de4",
     "work/redd_full_audit/verify_archive.py": "dcb1b26bae19ab2cf5ecc7d41839fa7459238db7cd06ef33afa089680072538d",
     "work/redd_full_audit/verify_import.py": "03e09182e91f616d3d893cd6dd8af802dec29bd64a56305e3969df6a6ce6b98c",
