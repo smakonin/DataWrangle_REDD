@@ -1,0 +1,21 @@
+{
+  "grid_rows": "Inclusive integer-second positions from channel-1 first timestamp to last timestamp, as reported in the archived log.",
+  "grid_span_days": "grid_rows/86400; calendar-grid span, not observed recording uptime.",
+  "grid_span_house_days": "Sum of six per-house grid spans/86400; household exposure denominator, not one wall-clock interval.",
+  "observed_mains_channel1_rows": "Archived source actual len for mains channel 1; not both mains legs verified individually.",
+  "observed_mains_row_density_of_grid": "Observed channel-1 rows/grid_rows; describes source timestamp density.",
+  "no_timestamp_grid_rows": "Rows skipped by historical no-timestamp counter; grid_rows minus observed channel-1 rows reconciles exactly.",
+  "incomplete_grouped_rows": "Rows with a mains timestamp skipped for a sentinel after grouping; not a certified count of failed individual sensors.",
+  "exported_rows": "Retained historical rows, including reported substitutions/rebuilds.",
+  "lead_substitutions": "Historical timestamp-lead counter; heuristic successful future-mains replacements, not independent clock-error measurements.",
+  "lag_substitutions": "Historical timestamp-lag counter; heuristic successful past-mains replacements, not independent clock-error measurements.",
+  "fallback_rebuilds": "Historical negative-noise counter; count of paired ERROR: neg noise / NEW records.",
+  "main_before": "MAIN value immediately before a logged fallback rebuild, already processed/quantized by the historical importer.",
+  "main_after": "MAIN value in its paired NEW vector.",
+  "main_delta": "main_after-main_before; not a metrological error estimate or integrated energy.",
+  "abs_main_delta": "Absolute logged MAIN change; all parsed fallback changes happen to be positive.",
+  "main_after_to_before_ratio": "main_after/main_before, undefined when main_before=0.",
+  "grouped_submeter_sum": "Sum of grouped submeter numerals excluding timestamp, MAIN, and residual; validated against each log's sum field.",
+  "original_residual": "main_before-grouped_submeter_sum.",
+  "new_residual": "main_after-grouped_submeter_sum, also validated against printed new noise."
+}

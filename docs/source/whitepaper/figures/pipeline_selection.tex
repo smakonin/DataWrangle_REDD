@@ -1,0 +1,15 @@
+\begin{tikzpicture}
+\begin{axis}[whitepaper,ybar stacked,bar width=28pt,
+  ymin=0,ymax=105,xmin=.35,xmax=6.65,
+  xtick={1,2,3,4,5,6},xticklabels={House 1,House 2,House 3,House 4,House 5,House 6},
+  ytick={0,20,40,60,80,100},ylabel={Share of one-second grid (\%)},
+  legend columns=1,legend style={at={(.5,1.04)},anchor=south},
+  reverse legend=true]
+\addplot[fill=EvidenceBlue,draw=black!65] coordinates {(1,12.97816849) (2,10.46903137) (3,9.71836255) (4,10.32661282) (5,2.04519276) (6,9.50153900)};
+\addlegendentry{Exported}
+\addplot[fill=EvidenceGold,draw=black!65] coordinates {(1,36.84994770) (2,29.13294454) (3,27.15752041) (4,30.19667499) (5,5.93272525) (6,34.37233345)};
+\addlegendentry{Channel 1 present but grouped fields incomplete}
+\addplot[fill=EvidenceGray,draw=black!65] coordinates {(1,50.17188380) (2,60.39802409) (3,63.12411704) (4,59.47671219) (5,92.02208199) (6,56.12612755)};
+\addlegendentry{No channel 1 timestamp}
+\end{axis}
+\end{tikzpicture}

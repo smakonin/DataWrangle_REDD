@@ -1,0 +1,13 @@
+\documentclass[border=7mm]{standalone}
+\input{fontsettings.tex}
+\input{plotsettings.tex}
+\begin{document}
+\begin{minipage}{6.6in}
+\centering
+{\large\bfseries Frequency of recorded input changes\par}
+\vspace{5mm}
+\input{figures/repair_frequency.tex}
+\vspace{2mm}
+{\small\raggedright Edits are heuristic operations per 10,000 exported rows, not independently measured clock faults. Source: archived DataWrangle\_REDD log, commit 66ea7e0. This is a historical log analysis, not a fresh raw-data audit.\par}
+\end{minipage}
+\end{document}

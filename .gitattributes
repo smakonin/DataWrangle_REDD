@@ -1,0 +1,4 @@
+# Preserve the exact historical evidence, including its original whitespace.
+docs/source/whitepaper/analysis/DataWrangle_REDD/* -text -whitespace
+# csv.DictWriter emits valid CRLF records; keep their bytes reproducible.
+docs/source/whitepaper/data/*.csv -text whitespace=cr-at-eol
