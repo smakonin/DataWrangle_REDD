@@ -5,3 +5,7 @@ __pycache__/
 .pytest_cache/
 .venv/
 /datasets/
+/docs/source/whitepaper/analysis/fresh_audit/work/redd_full_audit/imported/
+/docs/source/whitepaper/analysis/fresh_audit/work/redd_full_audit/raw_results/
+/docs/source/whitepaper/analysis/fresh_audit/work/redd_full_audit/reviewed/
+/docs/source/whitepaper/analysis/fresh_audit/work/redd_full_audit/verify-house-*/

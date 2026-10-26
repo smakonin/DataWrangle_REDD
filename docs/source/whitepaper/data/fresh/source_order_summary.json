@@ -1,0 +1,43 @@
+{
+  "definition": "Descending adjacency flags: current valid source timestamp < previous valid source timestamp. Flagged rows do not enumerate every row requiring sorting or every inversion. A shared timestamp across channels is not independently verified as one physical event.",
+  "flagged_source_rows": 47957,
+  "distinct_house_timestamp_pairs": 6528,
+  "houses": [
+    {
+      "house": 1,
+      "flagged_rows": 8169,
+      "channels_with_flags": 15,
+      "distinct_timestamps": 669
+    },
+    {
+      "house": 2,
+      "flagged_rows": 997,
+      "channels_with_flags": 10,
+      "distinct_timestamps": 601
+    },
+    {
+      "house": 3,
+      "flagged_rows": 15732,
+      "channels_with_flags": 15,
+      "distinct_timestamps": 1093
+    },
+    {
+      "house": 4,
+      "flagged_rows": 532,
+      "channels_with_flags": 1,
+      "distinct_timestamps": 532
+    },
+    {
+      "house": 5,
+      "flagged_rows": 6322,
+      "channels_with_flags": 19,
+      "distinct_timestamps": 356
+    },
+    {
+      "house": 6,
+      "flagged_rows": 16205,
+      "channels_with_flags": 15,
+      "distinct_timestamps": 3277
+    }
+  ]
+}

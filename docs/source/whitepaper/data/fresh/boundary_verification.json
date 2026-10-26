@@ -1,0 +1,936 @@
+{
+  "scope": "Read-only first/last physical source-record check; line endings describe those endpoint samples, not a full per-line census.",
+  "channels_checked": 116,
+  "first_endpoint_mismatches": 0,
+  "last_endpoint_mismatches": 0,
+  "checks": [
+    {
+      "house": 1,
+      "channel": 1,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 1,
+      "channel": 10,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 1,
+      "channel": 11,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 1,
+      "channel": 12,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 1,
+      "channel": 13,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 1,
+      "channel": 14,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 1,
+      "channel": 15,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 1,
+      "channel": 16,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 1,
+      "channel": 17,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 1,
+      "channel": 18,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 1,
+      "channel": 19,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 1,
+      "channel": 2,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 1,
+      "channel": 20,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 1,
+      "channel": 3,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 1,
+      "channel": 4,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 1,
+      "channel": 5,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 1,
+      "channel": 6,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 1,
+      "channel": 7,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 1,
+      "channel": 8,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 1,
+      "channel": 9,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 2,
+      "channel": 1,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 2,
+      "channel": 10,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 2,
+      "channel": 11,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 2,
+      "channel": 2,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 2,
+      "channel": 3,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 2,
+      "channel": 4,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 2,
+      "channel": 5,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 2,
+      "channel": 6,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 2,
+      "channel": 7,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 2,
+      "channel": 8,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 2,
+      "channel": 9,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 3,
+      "channel": 1,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 3,
+      "channel": 10,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 3,
+      "channel": 11,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 3,
+      "channel": 12,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 3,
+      "channel": 13,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 3,
+      "channel": 14,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 3,
+      "channel": 15,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 3,
+      "channel": 16,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 3,
+      "channel": 17,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 3,
+      "channel": 18,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 3,
+      "channel": 19,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 3,
+      "channel": 2,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 3,
+      "channel": 20,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 3,
+      "channel": 21,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 3,
+      "channel": 22,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 3,
+      "channel": 3,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 3,
+      "channel": 4,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 3,
+      "channel": 5,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 3,
+      "channel": 6,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 3,
+      "channel": 7,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 3,
+      "channel": 8,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 3,
+      "channel": 9,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 4,
+      "channel": 1,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 4,
+      "channel": 10,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 4,
+      "channel": 11,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 4,
+      "channel": 12,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 4,
+      "channel": 13,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 4,
+      "channel": 14,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 4,
+      "channel": 15,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 4,
+      "channel": 16,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 4,
+      "channel": 17,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 4,
+      "channel": 18,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 4,
+      "channel": 19,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 4,
+      "channel": 2,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 4,
+      "channel": 20,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 4,
+      "channel": 3,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 4,
+      "channel": 4,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 4,
+      "channel": 5,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 4,
+      "channel": 6,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 4,
+      "channel": 7,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 4,
+      "channel": 8,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 4,
+      "channel": 9,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 5,
+      "channel": 1,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 5,
+      "channel": 10,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 5,
+      "channel": 11,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 5,
+      "channel": 12,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 5,
+      "channel": 13,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 5,
+      "channel": 14,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 5,
+      "channel": 15,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 5,
+      "channel": 16,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 5,
+      "channel": 17,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 5,
+      "channel": 18,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 5,
+      "channel": 19,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 5,
+      "channel": 2,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 5,
+      "channel": 20,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 5,
+      "channel": 21,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 5,
+      "channel": 22,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 5,
+      "channel": 23,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 5,
+      "channel": 24,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 5,
+      "channel": 25,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 5,
+      "channel": 26,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 5,
+      "channel": 3,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 5,
+      "channel": 4,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 5,
+      "channel": 5,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 5,
+      "channel": 6,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 5,
+      "channel": 7,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 5,
+      "channel": 8,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 5,
+      "channel": 9,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 6,
+      "channel": 1,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 6,
+      "channel": 10,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 6,
+      "channel": 11,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 6,
+      "channel": 12,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 6,
+      "channel": 13,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 6,
+      "channel": 14,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 6,
+      "channel": 15,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 6,
+      "channel": 16,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 6,
+      "channel": 17,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 6,
+      "channel": 2,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 6,
+      "channel": 3,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 6,
+      "channel": 4,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 6,
+      "channel": 5,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 6,
+      "channel": 6,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 6,
+      "channel": 7,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 6,
+      "channel": 8,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    },
+    {
+      "house": 6,
+      "channel": 9,
+      "first_source_is_minimum": true,
+      "last_source_is_maximum": true,
+      "first_line_ending": "LF",
+      "last_line_ending": "LF"
+    }
+  ]
+}

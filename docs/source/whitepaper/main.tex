@@ -11,7 +11,7 @@
 \usepackage{enumitem}
 \usepackage{titlesec}
 \usepackage{fancyhdr}
-\usepackage{hyperref}
+\usepackage{hyperref,xurl}
 \hypersetup{hidelinks,pdftitle={Limits of REDD-Only Evidence for NILM Deployment},pdfauthor={Stephen Makonin}}
 \urlstyle{same}
 \Urlmuskip=0mu plus 1mu
@@ -41,24 +41,119 @@
 \vspace{6pt}
 {\large Measurement context, preprocessing, and complementary validation\par}
 \vspace{5pt}
-Stephen Makonin\quad Companion technical note, version 1.1\\
+Stephen Makonin\quad Companion technical note, version 1.2\\
 25 October 2026
 \vspace{7pt}
 
-\section*{Purpose and scope}
-REDD helped establish open energy-disaggregation research and remains valuable for historical reproduction, benchmark comparisons, and focused algorithmic tests. Its contribution should be distinguished from the limits of any particular evaluation that uses it. This note concerns the additional evidence needed when a REDD result is used to support deployment across households, seasons, or measurement systems. \cite{ref1}
+\section*{Purpose and actual-data findings}
+REDD helped establish open energy-disaggregation research and remains valuable for historical reproduction, benchmark comparisons, and focused algorithmic tests. This update examines the full conventional low-frequency release directly and asks what evidence it supports for deployment across households, seasons, and measurement systems. \cite{ref1,ref14}
 
-High accuracy on a disclosed REDD subset can support a well-defined benchmark result. Broader claims require evidence suited to the intended operating conditions. The conventional low-frequency release has limited household and temporal coverage, different nominal sampling intervals for mains and circuit measurements, documented gaps, and questions about measurement compatibility. These properties make data preparation part of the experiment; reporting that preparation helps readers interpret and reproduce the score. \cite{ref1,ref2,ref3}
+All 122 canonical files---116 channel files and six label files---matched the locally archived REDD Version 1.0 release byte for byte. The merged Python 3 importer processed all 56,341,629 source observations successfully. Independent verification confirmed preservation of every one of the 14,113,792 original mains records and checked all 7,755,931 derived timestamp-union rows. No mains value was replaced using target measurements. \cite{ref14}
 
-Preprocessing deserves particular attention when an experiment fills or deletes missing readings, presents resampled labels as higher-resolution observations, or replaces measured mains using target submeters. Such choices can change test difficulty as well as measured algorithm performance. The historical importer examined here is Stephen Makonin's own software: its exclusion and repair rules are not REDD's original acquisition pipeline or a standard REDD preprocessing prescription. \cite{ref4,ref5}
+The fresh audit found no malformed records, duplicate timestamp keys, or conflicting duplicates. It did find 47,957 descending timestamp adjacencies in source-file order, nonuniform sampling, and long recording gaps. Observed mains modes are one second in houses 1--5 and two seconds in house 6; circuit modes are four seconds in houses 1 and 5 and three seconds elsewhere. Source disorder can be handled by sorting without discarding readings.
 
-We recommend retaining REDD as a historical comparison and diagnostic dataset while requiring independent validation on complementary datasets. AMPds2 and R1Hz provide longitudinal energy tests, with R1Hz adding one-second electrical streams; UK-DALE provides documented calibration of selected whole-house meters; REFIT adds household and usage diversity; and RAE offers useful circuit measurements when the provenance of its aggregate is checked. Each has limitations. No dataset name is a substitute for an audit of the actual channels and intervals used. \cite{ref7,ref8,ref9,ref10,ref13}
+Exact all-channel completeness occurs at 1,797,457 of 7,056,896 both-mains timestamps, or 25.47 percent. This is a timestamp-coincidence ratio, not a sensor-loss rate. With a predeclared 60-second gap rule, shared threshold-connected duration ranges from 8.23 to 55.00 percent of each home's mains endpoint envelope. That duration is an availability proxy, not measured continuous uptime or reconstructed ground truth.
 
-REDD-only evidence should be interpreted within its disclosed homes, intervals, measurements, and processing rules. Data limitations can raise or lower measured performance; they do not establish that a particular published result is incorrect. The questions are which task was tested, how much valid evidence remained, and whether a claimed advantage transfers to independent measurement conditions.
+These findings do not support a blanket claim of numerical corruption. In particular, no partial constituent group or missing second mains leg was concealed by the historical importer's any-member rule in this archive. These specific partial-group and endpoint failure modes remain conditional implementation risks; the directly observed concerns are temporal coverage, cadence, source order, measurement compatibility, and the scope of deployment claims. The 2,859 negative exact-time numerical residuals were retained unchanged and do not independently establish meter or clock error.
 
-This technical note combines published dataset descriptions and diagnostic studies with an analysis of the archived DataWrangle\_REDD code and log. No fresh raw-archive replay or NILM model experiment is reported. Historical log counts describe that software pipeline; illustrative calculations are not REDD measurements. The current Python 3 importer preserves measured mains and exports observation masks; the archived repair counts do not describe its behavior.
+This is a descriptive data-quality audit, not a new NILM accuracy experiment or calibration study. Historical 2015 log results remain separately identified and do not describe the new importer. Stephen Makonin's archived repairs are his software choices, not REDD's acquisition pipeline.
 
-\textbf{Author disclosure.} Stephen Makonin wrote the historical importer examined here and coauthored the AMPds2, RAE, and R1Hz dataset publications. Recommendations identify complementary evaluation roles and do not rank these datasets as universally more accurate. The same measurement, missingness, provenance, and reporting requirements apply to every dataset. \cite{ref7,ref10,ref13}
+\textbf{Author disclosure.} Stephen Makonin wrote the historical importer examined here and coauthored the AMPds2, RAE, and R1Hz dataset publications. Recommendations identify complementary evaluation roles, without a universal accuracy ranking. Equal measurement, missingness, provenance, and reporting scrutiny applies to every dataset. \cite{ref7,ref10,ref13}
+
+\clearpage
+\section{Fresh raw-archive audit: provenance and integrity}
+The controlling source is the local low\_freq.tar.bz2 archive, 169,367,706 bytes, identified as REDD Version 1.0 by its accompanying README. Its SHA-256 is \url{9911f3fd7d8c7fe89a3ce4634374917fa52a536103cd203cd6e7fa7ccb0ef420}. All 116 channel files and six label files in the canonical house\_1 through house\_6 directories matched their archive members byte for byte. Local copies, precleaned exports, high-frequency files, and unrelated metadata files were excluded. The checksum identifies this copy; it is not an independently published official checksum. \cite{ref14}
+
+Measurement-source files total 932,604,931 bytes. The merged importer revision is \href{https://github.com/smakonin/DataWrangle_REDD/commit/447946445e61a0dd2df667b6d7cab9e50950a0a0}{4479464}, run with Python 3.12.14. All six imports succeeded, with no duplicate deduplication, malformed-row rejection, or conflicting-key failure. Input file hashes were checked against the archive and source files remained unchanged.
+
+\begingroup\small\setlength{\tabcolsep}{4pt}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{0.46in}|>{\raggedright\arraybackslash}p{0.62in}|>{\raggedright\arraybackslash}p{1.55in}|>{\raggedright\arraybackslash}p{1.2in}|>{\raggedright\arraybackslash}p{2.06in}|}
+\caption{Actual source inventory and descriptive modal intervals}\\
+\hline\rowcolor{HeaderGray}\textbf{House} & \textbf{Channels} & \textbf{Source records} & \textbf{Order descents} & \textbf{Mains / circuit mode (s)}\\\hline
+\endfirsthead
+\hline\rowcolor{HeaderGray}\textbf{House} & \textbf{Channels} & \textbf{Source records} & \textbf{Order descents} & \textbf{Mains / circuit mode (s)}\\\hline
+\endhead
+1 & 20 & 16,549,124 & 8,169 & 1 / 4\\\hline
+2 & 11 & 5,265,899 & 997 & 1 / 3\\\hline
+3 & 22 & 10,936,708 & 15,732 & 1 / 3\\\hline
+4 & 20 & 13,626,212 & 532 & 1 / 3\\\hline
+5 & 26 & 2,534,252 & 6,322 & 1 / 4\\\hline
+6 & 17 & 7,429,434 & 16,205 & 2 / 3\\\hline
+\end{longtable}
+\endgroup
+
+An order descent means that a record's timestamp is smaller than the preceding record's timestamp in the same source file. The 47,957 descents span 6,528 distinct house/timestamp pairs; neither number is a count of independent clock faults or lost observations. All 116 files still began at their minimum timestamp and ended at their maximum. Thus internal disorder occurred, but the historical first/last endpoint assumption did not fail on this release.
+
+The audit used separate observation masks, unique timestamp keys, exact interval histograms, and disk-backed canonical ordering. An independent verifier checked every original mains record against channels.csv, including its value, source line number, and source order. It also checked every loads.csv row against an independent source index. All 7,056,896 available MAIN values equaled the exact sum of the original two legs, including all 2,859 negative-residual rows. These checks establish numerical preservation; they do not establish meter calibration.
+
+For each channel, source rows, unique unambiguous timestamp keys, and elapsed endpoint span are separate quantities. A calendar-second grid density is not uptime when native cadence varies. The audit protocol was declared before the new aggregate scan, with a primary gap threshold of 60 seconds and sensitivity thresholds of 30, 120, and 300 seconds. Exact intervals and all per-channel results are supplied with the note.
+
+\clearpage
+\section{Observed temporal coverage and gap sensitivity}
+For sorted consecutive unique timestamps, let a threshold-connected span include the half-open interval between two observations only when their separation is at most T seconds. Longer intervals are excluded entirely; no duration is added after the last observation. Intersect these interval unions across the required channels to obtain a shared duration proxy. This construction creates no new power readings and does not verify continuous availability between endpoints. \cite{ref14}
+
+All fractions below use each house's earliest mains start through latest mains end as the denominator. That endpoint envelope combines recording boundaries and internal gaps. A separately supplied common-endpoint denominator isolates the interval where all required channels' endpoints overlap.
+\begin{figure}[H]\centering
+\input{figures/raw_coverage.tex}
+\caption{Fresh raw-data audit. Both series use the 60-second rule and the same house-specific mains endpoint envelope. Gold requires every original circuit and both mains legs. These are threshold-connected durations, not measured uptime, energy coverage, or sensor-loss rates.}
+\end{figure}
+\begingroup\small\setlength{\tabcolsep}{4pt}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{0.4in}|>{\raggedright\arraybackslash}p{1.05in}|>{\raggedright\arraybackslash}p{1.15in}|>{\raggedright\arraybackslash}p{1.15in}|>{\raggedright\arraybackslash}p{1.05in}|>{\raggedright\arraybackslash}p{1.11in}|}
+\caption{Threshold-connected durations and longest consecutive-record gaps}\\
+\hline\rowcolor{HeaderGray}\textbf{House} & \textbf{Mains envelope (days)} & \textbf{Both mains, 60 s (days)} & \textbf{All channels, 60 s (days)} & \textbf{All / envelope (\%)} & \textbf{Longest mains gap (days)}\\\hline
+\endfirsthead
+\hline\rowcolor{HeaderGray}\textbf{House} & \textbf{Mains envelope (days)} & \textbf{Both mains, 60 s (days)} & \textbf{All channels, 60 s (days)} & \textbf{All / envelope (\%)} & \textbf{Longest mains gap (days)}\\\hline
+\endhead
+1 & 36.27 & 18.25 & 18.25 & 50.30 & 9.45\\\hline
+2 & 35.03 & 13.97 & 13.91 & 39.70 & 20.70\\\hline
+3 & 44.80 & 17.04 & 17.00 & 37.94 & 19.07\\\hline
+4 & 47.98 & 19.45 & 18.91 & 39.41 & 20.14\\\hline
+5 & 43.83 & 3.61 & 3.61 & 8.23 & 31.42\\\hline
+6 & 23.41 & 18.48 & 12.88 & 55.00 & 3.94\\\hline
+\end{longtable}
+\endgroup
+
+Pooled as household exposure, the six mains envelopes total 19,986,137 seconds (231.32 house-days); shared all-channel threshold-connected spans total 7,304,136 seconds (84.54 house-days), or 36.55 percent. These sums are not one wall-clock recording interval. The longest consecutive mains gap in house 5 is 2,714,841 seconds, about 31.42 days. Timestamps alone do not identify whether such gaps arose from logging, communications, intentional collection boundaries, or another cause.
+
+\clearpage
+\section{Exact timestamp pairing is different from duration coverage}
+The new importer retains the union of native observations: 7,755,931 timestamps, including incomplete rows with explicit masks. Both mains legs are available at 7,056,896 timestamps; all 116 required channel streams, considered within their respective homes, coincide at 1,797,457 timestamps. The pooled exact-complete fraction of both-mains timestamps is 25.47 percent. Different cadence and timestamp phase contribute to this ratio; it must not be relabeled as 74.53 percent sensor data loss. \cite{ref14}
+\begin{figure}[H]\centering
+\input{figures/raw_exact_overlap.tex}
+\caption{Exact all-channel coincidence divided by both-mains timestamp count, with complete-row counts above the bars. This is a count ratio, unlike the duration measure in Figure 1. The new importer preserves all union rows rather than dropping incomplete timestamps.}
+\end{figure}
+Within each house, the two mains timestamp sets are identical and every circuit has the same timestamp set as every other circuit. Thus every per-target exact pairing count equals the all-target count in this release. No missing constituent was hidden by the old any-member group rule, including the second mains leg. These observations narrow the earlier code audit: its synthetic failure cases are real conditional behaviors, not demonstrated corruption in this archive.
+
+House 2 circuit recording begins 22,393 seconds (6 h 13 min 13 s) after mains recording and ends eight seconds earlier. This is a boundary difference, not evidence of a constant six-hour clock offset. Observed modal intervals are descriptive: house 6 mains are most often two seconds apart, and house 1/5 circuits four seconds apart, despite nominal one-/three-second descriptions.
+
+The largest 30-to-300-second change in shared duration is 0.4535 percentage points, in house 3. The main coverage conclusion is therefore stable across these declared absolute thresholds. Cadence-relative sensitivities and per-channel exact spacing distributions remain available in the supporting data; no threshold is a certified outage boundary.
+
+\clearpage
+\section{Numerical balance diagnostics with unchanged mains}
+At complete exact timestamps, define the numerical residual as MAIN\_1 plus MAIN\_2 minus the sum of the complete historical target groups. The primary diagnostic retains its sign and excludes no negative value. There are 2,859 negative cases among 1,797,457 eligible timestamps, or 0.1591 percent; the remaining 1,794,598 residuals are positive. All original mains readings remain intact. \cite{ref14}
+\begin{figure}[H]\centering
+\input{figures/raw_negative_balance.tex}
+\caption{Frequency of negative numerical residuals in exact complete rows; labels show case counts. This is not a frequency of verified meter errors or clock faults. The current importer retains every case without replacing mains.}
+\end{figure}
+\begingroup\small\setlength{\tabcolsep}{4pt}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{0.42in}|>{\raggedright\arraybackslash}p{1.12in}|>{\raggedright\arraybackslash}p{0.95in}|>{\raggedright\arraybackslash}p{1.14in}|>{\raggedright\arraybackslash}p{1.15in}|>{\raggedright\arraybackslash}p{1.16in}|}
+\caption{Magnitudes conditional on a negative residual, in unresolved source power units}\\
+\hline\rowcolor{HeaderGray}\textbf{House} & \textbf{Complete rows} & \textbf{Negative rows} & \textbf{Median magnitude} & \textbf{90th percentile} & \textbf{Maximum magnitude}\\\hline
+\endfirsthead
+\hline\rowcolor{HeaderGray}\textbf{House} & \textbf{Complete rows} & \textbf{Negative rows} & \textbf{Median magnitude} & \textbf{90th percentile} & \textbf{Maximum magnitude}\\\hline
+\endhead
+1 & 406,748 & 520 & 117.34 & 2,060.81 & 4,082.94\\\hline
+2 & 316,840 & 273 & 203.40 & 1,019.72 & 2,343.25\\\hline
+3 & 376,150 & 1,069 & 413.72 & 1,433.35 & 5,415.11\\\hline
+4 & 428,076 & 503 & 75.39 & 641.18 & 2,347.34\\\hline
+5 & 77,451 & 184 & 44.37 & 742.26 & 2,961.25\\\hline
+6 & 192,192 & 310 & 66.44 & 902.45 & 2,684.69\\\hline
+\end{longtable}
+\endgroup
+
+Across the negative subset, median magnitude is 125.19, the 90th percentile 1,421.24, and maximum 5,415.11 source power units. These are conditional imbalance magnitudes, not calibration errors. Supporting tables also disclose absolute and relative sensitivity cutoffs and their eligible denominators.
+
+The original README calls low-frequency readings apparent power, whereas NILMTK conventionally labels circuit readings active power. That documentation discrepancy remains unresolved by this timestamp/value audit. Meter type, averaging windows, circuit topology, unmonitored loads, and timing can all affect the residual. No watt-hour, unknown-energy, physical synchronization, or NILM accuracy claim is inferred from these sparse exact-time sums.
 
 \section{What the REDD benchmark actually contains}
 REDD was an important contribution to open energy-disaggregation research. Its original system combined high-frequency whole-house waveforms with lower-rate circuit and plug measurements. The detailed hardware description reports circuit polling at approximately three seconds and whole-house waveforms at 15 kHz. Processed whole-house power is available at nominally one-second intervals. REDD therefore cannot accurately be described as having uniformly synchronized one-hertz appliance ground truth. \cite{ref1,ref2}
@@ -108,7 +203,7 @@ Retained percent is exported rows divided by the log’s dense one-second grid l
 
 The denominator is essential. Much of the grid has no exact circuit observation because the native circuit cadence is approximately three seconds; outages and nonmatching availability remove further rows. Thus the reported 87 to 98 percent shrinkage must not be relabeled as 87 to 98 percent sensor data loss. Completeness is also checked after channel grouping, so a passing row does not establish that every original constituent channel was present. \cite{ref4,ref5}
 
-The log names its exports with a 3sec suffix while the inspected script uses lowf. It is therefore an archived processing record rather than proof that this exact script version produced every logged result. A fresh audit would require the raw files, checksums, and executed configuration. What the archive establishes is narrower but consequential: the final evaluation sample is heavily determined by joining, grouping, exclusion, and repair rules.
+The log names its exports with a 3sec suffix while the inspected 2015 script uses lowf. Exact historical execution identity therefore remains unproven. The fresh raw audit now supplies separate file hashes and quality results, and its complete-row counts match the archived export counts. Matching counts do not retrospectively establish the byte identity of the 2015 inputs or the exact program version that generated the log.
 
 \section{Repair can compromise the independence of a test}
 The historical DataWrangle\_REDD snapshot can change measured mains using submeter information. When summed submeter measurements exceed the mains reading, the script attempts to search neighboring mains at nominal offsets of one through nine seconds and substitutes a value that makes the residual nonnegative. If that search fails, it rebuilds mains from the target sum plus an estimated residual. This describes a heuristic in the archived code, not a verified timing correction or REDD's acquisition procedure. The operations are visible in lines 129 to 163 of the pinned script. \cite{ref4}
@@ -188,74 +283,20 @@ The same standards must apply to alternatives. A longer or newer dataset can sti
 
 REDD continues to support historical reproduction and targeted algorithmic evaluation. When claims extend to practical operation across households or measurement systems, researchers should show data integrity and test the claimed advantage under complementary conditions. Transparent processing and evidence proportionate to the claim allow subsequent work to build on REDD's contribution.
 
-\clearpage
-\section{Quantitative selection through the archived pipeline}
-The additional analysis parses all six house summaries and all 476 detailed fallback pairs in the archived log. Counts reconcile within each house: no-timestamp rows plus incomplete grouped rows plus exported rows equal the dense grid length. Every detailed fallback pair matches its house counter and its printed residual arithmetic. This is a reproducible analysis of a historical log, not a new ingestion of raw REDD.~\cite{ref5}
-\begin{figure}[H]
-\centering
-\input{figures/pipeline_selection.tex}
-\caption{Disposition of integer-second grid positions in the archived import. Categories are mutually exclusive and sum to 100 percent. The incomplete category includes intentional native submeter cadence as well as unavailable or nonmatching fields; the log cannot separate those causes. These shares are not sensor-loss rates. Source: archived DataWrangle\_REDD log.~\cite{ref5}}
-\end{figure}
-
-\begingroup\small\setlength{\tabcolsep}{4pt}
-\begin{longtable}{|>{\centering\arraybackslash}p{0.555in}|>{\centering\arraybackslash}p{1.211in}|>{\centering\arraybackslash}p{2.270in}|>{\centering\arraybackslash}p{2.320in}|}
-\caption{Denominators that must not be confused}\\
-\hline\rowcolor{HeaderGray}
-\textbf{House} & \textbf{Calendar grid days} & \textbf{Channel 1 rows per grid percent} & \textbf{Exported per channel 1 rows percent}\\\hline
-\endfirsthead
-\hline\rowcolor{HeaderGray}
-\textbf{House} & \textbf{Calendar grid days} & \textbf{Channel 1 rows per grid percent} & \textbf{Exported per channel 1 rows percent}\\\hline
-\endhead
-1 & 36.27 & 49.83 & 26.05\\\hline
-2 & 35.03 & 39.60 & 26.44\\\hline
-3 & 44.80 & 36.88 & 26.35\\\hline
-4 & 47.98 & 40.52 & 25.48\\\hline
-5 & 43.83 & 7.98 & 25.64\\\hline
-6 & 23.41 & 43.87 & 21.66\\\hline
-\end{longtable}
-\endgroup
-Pooled across houses, 7,056,896 channel-1 records occupy 35.31 percent of 19,986,143 grid positions. The 1,797,457 exported rows represent 8.99 percent of that grid, or 25.47 percent of observed channel-1 rows. These are different denominators. Grid days are first-to-last timestamp spans, not continuous uptime; channel 1 alone does not certify that both mains legs are present.
 
 \clearpage
-\section{Frequency of recorded input changes}
-The archived counters identify 1,381 lead substitutions, 1,001 lag substitutions, and 476 fallback rebuilds. Together these are 2,858 edits across 1,797,457 exported rows: 0.1590 percent, or 15.90 per 10,000. The labels describe heuristic operations rather than independently measured clock errors.~\cite{ref4,ref5}
-\begin{figure}[H]
-\centering
-\input{figures/repair_frequency.tex}
-\caption{Recorded edits per 10,000 exported rows. Nearby mains substitutions combine the historical lead and lag counters; rebuilds use the negative-noise counter. Labels show total edits per 10,000. Normalization permits comparison of unequal exported row counts, but does not make the houses independent samples of a population. Source: archived DataWrangle\_REDD log.~\cite{ref5}}
-\end{figure}
-The rates range from 8.65 per 10,000 exported rows in house 2 to 28.23 in house 3. Fallback rebuilds alone account for 0.02648 percent of all exported rows. The archive does not record the magnitude of every nearby-value substitution, so the next distribution applies only to the fallback subset.
+\section{Historical log context: a separate processing record}
+The archived 2015 log describes Stephen Makonin's exploratory importer and its target-informed changes to mains. It is not REDD's original acquisition pipeline and does not describe the current Python 3 import. The historical exclusion logic and repair behavior remain useful methodological examples, with the execution-version qualification stated above. \cite{ref4,ref5}
 
-The sparse frequency is an important limit on the criticism: these counts do not establish that repair dominates a complete test or explains any particular NILM score. Conversely, a small row share does not guarantee a small event or energy effect. A transition can be influential even when it occupies few timestamps. Measuring the effect on model performance would require the raw and repaired series, identical evaluation masks, and a controlled comparison.
+The archive records 1,381 lead substitutions, 1,001 lag substitutions, and 476 fallback rebuilds: 2,858 changes across 1,797,457 exports, or 0.1590 percent. The 476 detailed rebuilds have median MAIN increase 301, 90th percentile 1,772.5, and maximum 5,116 in archived integer power units. Those changes were made by the importer; they are not measured acquisition errors.
 
-\clearpage
-\section{Magnitude of the detailed fallback rebuilds}
-Each of the 476 paired fallback records increases the imported mains value. The pooled median increase is 301, the mean is 624.07, the 90th percentile is 1,772.5, and the maximum is 5,116. Values remain in the archive's integer power units; the export filename says VA, but this analysis does not independently establish the measurand or calibration.~\cite{ref5}
-\begin{figure}[H]
-\centering
-\input{figures/fallback_magnitude.tex}
-\caption{Empirical cumulative distribution of MAIN after minus MAIN before for the 476 detailed fallback events. Quantiles use linear interpolation at zero-based rank (n - 1)p. This selected subset contains negative-residual cases that reached the rebuild branch; it is not a distribution of all REDD errors or all 2,858 edits. Source: paired historical log records.~\cite{ref5}}
-\end{figure}
+The fresh raw audit instead finds 2,859 negative residuals using retained decimal readings and no repairs. These counts are not interchangeable: they describe different arithmetic and processing states, and the exact historical execution is unknown. No particular NILM score effect follows from either count.
 
-\begingroup\small\setlength{\tabcolsep}{4pt}
-\begin{longtable}{|>{\centering\arraybackslash}p{0.597in}|>{\centering\arraybackslash}p{0.869in}|>{\centering\arraybackslash}p{1.412in}|>{\centering\arraybackslash}p{1.955in}|>{\centering\arraybackslash}p{1.412in}|}
-\caption{Fallback increase by house in logged power units}\\
-\hline\rowcolor{HeaderGray}
-\textbf{House} & \textbf{Events} & \textbf{Median} & \textbf{90th percentile} & \textbf{Maximum}\\\hline
-\endfirsthead
-\hline\rowcolor{HeaderGray}
-\textbf{House} & \textbf{Events} & \textbf{Median} & \textbf{90th percentile} & \textbf{Maximum}\\\hline
-\endhead
-1 & 74 & 513.5 & 2,141.3 & 2,442\\\hline
-2 & 25 & 880.0 & 2,174.8 & 2,357\\\hline
-3 & 156 & 124.0 & 1,434.5 & 5,116\\\hline
-4 & 78 & 480.0 & 1,876.9 & 2,432\\\hline
-5 & 19 & 477.0 & 2,295.4 & 3,002\\\hline
-6 & 124 & 131.0 & 1,269.8 & 2,299\\\hline
-\end{longtable}
-\endgroup
-A total of 116 rebuilds, 24.37 percent of this subset, increase MAIN by at least 1,000 units. The largest is in house 3 at 2011-05-23 00:22:40 UTC: MAIN changes from 1,107 to 6,223, an increase of 5,116. These are changes made to an imported input value, not estimates of true meter error. Sparse log records cannot establish an integrated energy change or the resulting change in a NILM score.
+Every house's fresh all-channel exact-complete count equals its historical exported count: 406,748; 316,840; 376,150; 428,076; 77,451; and 192,192. No malformed/duplicate data, partial-group concealment, missing second mains leg, or first/last timestamp-extrema failure was observed in this canonical release. These specific partial-group, duplicate, and endpoint failure modes have no observed trigger in this copy. This does not certify all historical repair logic or reverse its logged changes to mains.
 
+Original historical-log tables, all 476 paired rebuild records, and editable historical plots remain in the supporting sources for reproduction. The fresh audit has its own provenance, protocol, masks, checks, and statistics. Large raw files, observation exports, row masks, and the local audit database are not redistributed with this note.
+
+The defensible conclusion is specific: this archive has clean numeric record structure and reproducible timestamp ordering, alongside substantial recording gaps, cadence variation, and limited household/temporal coverage. Those are reasons to state a benchmark's scope and seek complementary validation, not to invalidate REDD or its research contribution.
 \clearpage\begingroup\small\raggedright
 \begin{thebibliography}{99}\setlength{\itemsep}{4pt}
 \bibitem{ref1} J. Zico Kolter and M. J. Johnson. REDD: A Public Data Set for Energy Disaggregation Research. Workshop on Data Mining Applications in Sustainability, SustKDD, 2011. Original dataset paper; no DOI identified. \href{https://zicokolter.com/publications/kolter2011redd.pdf}{Author-hosted paper}.
@@ -271,6 +312,7 @@ A total of 116 rebuilds, 24.37 percent of this subset, increase MAIN by at least
 \bibitem{ref11} C. Klemenjak, S. Makonin, and W. Elmenreich. Investigating the performance gap between testing on real and denoised aggregates in non-intrusive load monitoring. Energy Informatics, vol. 4, article 3, 2021. \href{https://doi.org/10.1186/s42162-021-00137-9}{DOI 10.1186/s42162-021-00137-9}.
 \bibitem{ref12} M. Pullinger et al. The IDEAL household energy dataset, electricity, gas, contextual sensor data and survey data for 255 UK homes. Scientific Data, vol. 8, article 146, 2021. \href{https://doi.org/10.1038/s41597-021-00921-y}{DOI 10.1038/s41597-021-00921-y}.
 \bibitem{ref13} S. Makonin, D. J. Agron, and P. Palmer. Descriptor: The Residential 1Hz Energy Dataset (R1Hz). IEEE Data Descriptions, vol. 3, pp. 1--11, 2026. \href{https://doi.org/10.1109/IEEEDATA.2026.3746420}{DOI 10.1109/IEEEDATA.2026.3746420}. Supplementary release and recovery documentation: \href{https://github.com/smakonin/R1Hz.dataset/blob/d336f44bc969235951d086ad4e787a42bdec21bd/README.md}{R1Hz.dataset}, snapshot d336f44.
+\bibitem{ref14} S. Makonin. Fresh audit of the full REDD Version 1.0 low-frequency archive, 25 October 2026, technical note version 1.2. Archive SHA-256 9911f3fd7d8c7fe89a3ce4634374917fa52a536103cd203cd6e7fa7ccb0ef420. Importer revision 4479464; 116 channel files, six labels, raw-data protocol, source hashes, mask definitions, aggregate results, and independent verification. \href{https://github.com/smakonin/DataWrangle_REDD/tree/codex/redd-full-archive-results/docs/source/whitepaper}{Reproducible supporting materials}. The original README is local source metadata, not an independent calibration certificate.
 \end{thebibliography}
 \endgroup
 \end{document}

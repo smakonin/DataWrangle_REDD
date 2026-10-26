@@ -1,0 +1,12 @@
+\begin{tikzpicture}
+\begin{axis}[whitepaper,height=3.05in,ybar,bar width=16pt,
+ ymin=0,ymax=100,xmin=.4,xmax=6.6,xtick={1,2,3,4,5,6},
+ xticklabels={House 1,House 2,House 3,House 4,House 5,House 6},
+ ylabel={Share of mains endpoint envelope (\%)},
+ legend columns=2,legend style={at={(.5,1.04)},anchor=south}]
+\addplot[fill=EvidenceBlue,draw=black!65] coordinates {(1,50.30590988) (2,39.87088499) (3,38.03377697) (4,40.54095585) (5,8.23789001) (6,78.94628339)};
+\addlegendentry{Both mains legs}
+\addplot[fill=EvidenceGold,draw=black!65] coordinates {(1,50.29952844) (2,39.69830650) (3,37.93828560) (4,39.40887246) (5,8.22965125) (6,55.00208875)};
+\addlegendentry{Mains and every circuit}
+\end{axis}
+\end{tikzpicture}

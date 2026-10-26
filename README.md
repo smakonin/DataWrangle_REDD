@@ -163,14 +163,36 @@ scope of an evaluation:
 - [One-page summary](docs/redd_nilm_tldr.pdf)
 - [Detailed evaluation notes](docs/redd_nilm_validation_white_paper.pdf)
 
-Both are dated **25 October 2026, version 1.1**. They review published descriptions
-and archived processing records; they do not report a full replay of the raw
-REDD archive. The notes distinguish dataset limitations from transformations in
-Stephen Makonin's archived 2015 importer. Their quantitative log results describe
-that historical pipeline, not raw REDD error rates or sensor data loss, and do
-not establish that any REDD publication used those repairs. The current Python 3
-importer preserves the observed mains legs and does not repair or reconstruct
-them from target channels.
+Both are dated **25 October 2026, version 1.2**. This edition adds an actual-data
+audit of **56,341,629 records across 116 channels in six homes** and a full run of
+the current importer. All 122 canonical channel and label files matched the
+author's local Version 1.0 archive byte for byte. The recorded archive hash
+identifies that copy; it is not an independently published official checksum.
+
+The audit found no malformed records, within-channel duplicate timestamps, or conflicting
+duplicates. It counted **47,957 descending timestamp adjacencies** in source
+order. A separate validator checked that all **14,113,792 original mains
+records** survived with their numerical values and source line numbers intact.
+The release has substantial gaps and different observed sampling intervals;
+these findings do not demonstrate general numerical corruption or physical
+measurement error. The documented latent partial-group and endpoint defects of
+the old importer had no observed triggering cases in this copy.
+
+Exact all-channel completeness was **1,797,457 / 7,056,896 = 25.47%** of
+both-mains timestamps. This ratio includes native-cadence effects; it is not
+uptime or a sensor-loss rate. The notes define separate duration-based coverage
+proxies and disclose their thresholds and denominators. No NILM model accuracy
+or electrical calibration experiment was performed.
+
+The archived log remains a separate historical case study. Its 2,858 mains
+substitutions or rebuilds belong to Stephen Makonin's 2015 importer, not REDD's
+acquisition pipeline, and do not establish that another publication used those
+repairs. The current importer preserves observed mains and does not repair or
+reconstruct them from target channels. Reviewed aggregate data, provenance, and
+reproduction guidance are linked from [the documentation guide](docs/README.md);
+the full-audit raw channel files and generated observation exports are not
+distributed here. Historical public-log excerpts, including logged before/after
+readings from the old importer, remain included.
 
 **Disclosure:** Stephen Makonin coauthored AMPds2, RAE, and R1Hz. The comparisons
 discuss complementary validation roles, not a universal ranking of dataset
@@ -187,9 +209,10 @@ packages:
 python3 -m unittest discover -s tests -v
 ```
 
-GitHub Actions runs the same command on Python 3.10, 3.12, and 3.14. Passing these
-tests checks the importer's behavior; it does not independently validate REDD's
-physical measurements or reproduce results from the full archive.
+GitHub Actions runs the same command on Python 3.10, 3.12, and 3.14. These tests
+check the importer's behavior. The separate full-archive run and independent
+actual-data preservation checks are documented above; neither the synthetic
+tests nor that audit certify REDD's physical measurements or NILM accuracy.
 
 ## Citation and license
 

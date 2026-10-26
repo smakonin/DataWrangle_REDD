@@ -1,0 +1,16 @@
+\begin{tikzpicture}
+\begin{axis}[whitepaper,height=2.85in,ybar,bar width=27pt,ymin=0,ymax=.34,
+ xmin=.4,xmax=6.6,xtick={1,2,3,4,5,6},
+ xticklabels={House 1,House 2,House 3,House 4,House 5,House 6},
+ ytick={0,.05,.10,.15,.20,.25,.30},
+ yticklabels={0,0.05,0.10,0.15,0.20,0.25,0.30},
+ ylabel={Negative residual / exact complete rows (\%)}]
+\addplot[fill=EvidenceGold,draw=black!65] coordinates {(1,0.12784328) (2,0.08616336) (3,0.28419513) (4,0.11750250) (5,0.23756956) (6,0.16129704)};
+\node[font=\small,anchor=south] at (axis cs:1,0.13484328380225596){520};
+\node[font=\small,anchor=south] at (axis cs:2,0.0931633632117157){273};
+\node[font=\small,anchor=south] at (axis cs:3,0.29119513491957993){1,069};
+\node[font=\small,anchor=south] at (axis cs:4,0.12450249955615358){503};
+\node[font=\small,anchor=south] at (axis cs:5,0.24456956010897213){184};
+\node[font=\small,anchor=south] at (axis cs:6,0.1682970362970363){310};
+\end{axis}
+\end{tikzpicture}

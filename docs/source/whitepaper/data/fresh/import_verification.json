@@ -1,0 +1,454 @@
+{
+  "schema_version": 1,
+  "scope": "Actual-data numerical preservation check of all original REDD mains readings.",
+  "record_digest_definition": "SHA-256 over tab-separated source line/timestamp/exact normalized decimal identity; source line omitted for canonical loads digests.",
+  "comparison_arithmetic": "Decimal, with precision sufficient for all source mains exponent ranges.",
+  "source_data_redistributed": false,
+  "houses": {
+    "2": {
+      "house": 2,
+      "scope": "Every mains source record, all derived mains fields, and importer source hashes.",
+      "export_manifest_sha256": "1394aa2e85b4dbe16e52104b7778e6f721a4971d010f300bd39f3115f4b59fe1",
+      "importer_recorded_source_sha256": "a0e529ca175fdcde3209d4562af6ce7304af233d1ca8ca948f9537f0e9198954",
+      "mismatch_count": 0,
+      "mismatch_examples": [],
+      "sources": {
+        "1": {
+          "source_rows": 1198534,
+          "unique_timestamps": 1198534,
+          "identical_duplicate_rows": 0,
+          "conflicting_duplicate_rows": 0,
+          "out_of_order_rows": 0,
+          "source_sha256": "09bce514fb34190a4c4fe40359c91fafaa68f2ee4a96372545195372445378c6",
+          "source_hash_matches_archive_and_import_manifest": true,
+          "record_semantic_sha256": "9fab9b7283fd186c066337c03432451baa9e288662a7c5ac89013fe2804fa0fc",
+          "channels_csv_rows": 1198534,
+          "channels_csv_record_semantic_sha256": "9fab9b7283fd186c066337c03432451baa9e288662a7c5ac89013fe2804fa0fc",
+          "channels_csv_all_records_and_source_lines_match": true,
+          "canonical_loads_leg_rows": 1198534,
+          "expected_canonical_numeric_sha256": "cfe0251277a2ea9d0b4ad1055350d57c569ea4829deb63df0881d8d04fd0b95b",
+          "loads_canonical_numeric_sha256": "cfe0251277a2ea9d0b4ad1055350d57c569ea4829deb63df0881d8d04fd0b95b",
+          "all_canonical_leg_readings_match": true
+        },
+        "2": {
+          "source_rows": 1198534,
+          "unique_timestamps": 1198534,
+          "identical_duplicate_rows": 0,
+          "conflicting_duplicate_rows": 0,
+          "out_of_order_rows": 558,
+          "source_sha256": "84743a70e20913ef60e666f4bfbd48a70fb6ec66e5f21e0112564e92a0f9d64d",
+          "source_hash_matches_archive_and_import_manifest": true,
+          "record_semantic_sha256": "c599b204ac6ce071d381b3e2ba6105824e4478e39e7eb89d4d1d5392e31f2720",
+          "channels_csv_rows": 1198534,
+          "channels_csv_record_semantic_sha256": "c599b204ac6ce071d381b3e2ba6105824e4478e39e7eb89d4d1d5392e31f2720",
+          "channels_csv_all_records_and_source_lines_match": true,
+          "canonical_loads_leg_rows": 1198534,
+          "expected_canonical_numeric_sha256": "62857af09acd9e9718ee68a829b416b4b2bdd7c0a9f96b04730a87e6c7fae6ac",
+          "loads_canonical_numeric_sha256": "62857af09acd9e9718ee68a829b416b4b2bdd7c0a9f96b04730a87e6c7fae6ac",
+          "all_canonical_leg_readings_match": true
+        }
+      },
+      "input_manifest_hashes_vs_verified_archive": {
+        "channel_files": 11,
+        "matching_channel_hashes_and_sizes": 11,
+        "label_hash_matches": true
+      },
+      "counts": {
+        "loads_rows": 1200453,
+        "original_mains_union_timestamps": 1198534,
+        "rows_with_2_original_mains_legs": 1198534,
+        "exact_original_leg_sums_checked": 1198534,
+        "rows_with_0_original_mains_legs": 1919,
+        "negative_residual_rows_with_original_mains_checked": 273
+      },
+      "all_channels_csv_rows_scanned": 5265899,
+      "output_hash_checks": {
+        "channels.csv": {
+          "sha256": "7731878f09b6640f9a596bcee97876481c5ccc43039b7985458dff6e1aaedc06",
+          "size_bytes": 140366697,
+          "matches_import_manifest": true
+        },
+        "loads.csv": {
+          "sha256": "d220561feb97e4167fc70e739cec9ecb02dc63572e982f42b793638caf4609cb",
+          "size_bytes": 60548663,
+          "matches_import_manifest": true
+        }
+      },
+      "verified": true,
+      "elapsed_seconds": 18.818,
+      "finished_utc": "2026-10-26T02:01:05.725351+00:00"
+    },
+    "1": {
+      "house": 1,
+      "scope": "Every mains source record, all derived mains fields, and importer source hashes.",
+      "export_manifest_sha256": "a750c36b5ac2b46b1c62e8ad87c68940f405941df1c018c7f8ae00af3243060c",
+      "importer_recorded_source_sha256": "a0e529ca175fdcde3209d4562af6ce7304af233d1ca8ca948f9537f0e9198954",
+      "mismatch_count": 0,
+      "mismatch_examples": [],
+      "sources": {
+        "1": {
+          "source_rows": 1561660,
+          "unique_timestamps": 1561660,
+          "identical_duplicate_rows": 0,
+          "conflicting_duplicate_rows": 0,
+          "out_of_order_rows": 0,
+          "source_sha256": "61f67410a88f8d7f07fe79045941e7b32f4194dab0e8d52988616f3f23ba37f9",
+          "source_hash_matches_archive_and_import_manifest": true,
+          "record_semantic_sha256": "a7d2780eb56ea245ab62be68d0efc275ecaeafbb0fe74bdaf7ee819e9a78eba9",
+          "channels_csv_rows": 1561660,
+          "channels_csv_record_semantic_sha256": "a7d2780eb56ea245ab62be68d0efc275ecaeafbb0fe74bdaf7ee819e9a78eba9",
+          "channels_csv_all_records_and_source_lines_match": true,
+          "canonical_loads_leg_rows": 1561660,
+          "expected_canonical_numeric_sha256": "eeb17bdb7177121937c0f856dfdd71f74d5f4a5455f61d2830b382267510d149",
+          "loads_canonical_numeric_sha256": "eeb17bdb7177121937c0f856dfdd71f74d5f4a5455f61d2830b382267510d149",
+          "all_canonical_leg_readings_match": true
+        },
+        "2": {
+          "source_rows": 1561660,
+          "unique_timestamps": 1561660,
+          "identical_duplicate_rows": 0,
+          "conflicting_duplicate_rows": 0,
+          "out_of_order_rows": 0,
+          "source_sha256": "401a07b106f29d6d66eb6486d926ccc333cf0af2711e4dc71653fed42722f06a",
+          "source_hash_matches_archive_and_import_manifest": true,
+          "record_semantic_sha256": "1cac91afcad51efc8b5a9ae10484283e104eaad09e946c9c3635cfef19d2bc1a",
+          "channels_csv_rows": 1561660,
+          "channels_csv_record_semantic_sha256": "1cac91afcad51efc8b5a9ae10484283e104eaad09e946c9c3635cfef19d2bc1a",
+          "channels_csv_all_records_and_source_lines_match": true,
+          "canonical_loads_leg_rows": 1561660,
+          "expected_canonical_numeric_sha256": "1e2d105441458ba3ff55515f940ddd11cb8814403135461d3b02a17aef2b1c46",
+          "loads_canonical_numeric_sha256": "1e2d105441458ba3ff55515f940ddd11cb8814403135461d3b02a17aef2b1c46",
+          "all_canonical_leg_readings_match": true
+        }
+      },
+      "input_manifest_hashes_vs_verified_archive": {
+        "channel_files": 20,
+        "matching_channel_hashes_and_sizes": 20,
+        "label_hash_matches": true
+      },
+      "counts": {
+        "loads_rows": 1900790,
+        "original_mains_union_timestamps": 1561660,
+        "rows_with_2_original_mains_legs": 1561660,
+        "exact_original_leg_sums_checked": 1561660,
+        "negative_residual_rows_with_original_mains_checked": 520,
+        "rows_with_0_original_mains_legs": 339130
+      },
+      "all_channels_csv_rows_scanned": 16549124,
+      "output_hash_checks": {
+        "channels.csv": {
+          "sha256": "60ef71e829a47ab4645a6de9ba2ffa3581429a5c37f3c1bb1f1d4c9a3fbf8973",
+          "size_bytes": 445142873,
+          "matches_import_manifest": true
+        },
+        "loads.csv": {
+          "sha256": "098330a59169bc03d9da79c477e364c8edc87fbd97cb38e31b6a2e8d4b27e792",
+          "size_bytes": 109964957,
+          "matches_import_manifest": true
+        }
+      },
+      "verified": true,
+      "elapsed_seconds": 28.17,
+      "finished_utc": "2026-10-26T02:01:33.896616+00:00"
+    },
+    "3": {
+      "house": 3,
+      "scope": "Every mains source record, all derived mains fields, and importer source hashes.",
+      "export_manifest_sha256": "8e75aa382970561d198129bff72a3d43cc1b3326e104fb56d8a51c6128341f68",
+      "importer_recorded_source_sha256": "a0e529ca175fdcde3209d4562af6ce7304af233d1ca8ca948f9537f0e9198954",
+      "mismatch_count": 0,
+      "mismatch_examples": [],
+      "sources": {
+        "1": {
+          "source_rows": 1427284,
+          "unique_timestamps": 1427284,
+          "identical_duplicate_rows": 0,
+          "conflicting_duplicate_rows": 0,
+          "out_of_order_rows": 0,
+          "source_sha256": "44395345a7b827bf8c8f9c7712ddeecce9c814879fcc53fe5e27e79b6c42761e",
+          "source_hash_matches_archive_and_import_manifest": true,
+          "record_semantic_sha256": "81fb5ade639a46086a079400d998cc436efadddff720301f943a39cb3cfc66d0",
+          "channels_csv_rows": 1427284,
+          "channels_csv_record_semantic_sha256": "81fb5ade639a46086a079400d998cc436efadddff720301f943a39cb3cfc66d0",
+          "channels_csv_all_records_and_source_lines_match": true,
+          "canonical_loads_leg_rows": 1427284,
+          "expected_canonical_numeric_sha256": "73ae9ee50835053da3128b16433d50c65b56039519174bbbdc8bcc8eef6db31b",
+          "loads_canonical_numeric_sha256": "73ae9ee50835053da3128b16433d50c65b56039519174bbbdc8bcc8eef6db31b",
+          "all_canonical_leg_readings_match": true
+        },
+        "2": {
+          "source_rows": 1427284,
+          "unique_timestamps": 1427284,
+          "identical_duplicate_rows": 0,
+          "conflicting_duplicate_rows": 0,
+          "out_of_order_rows": 0,
+          "source_sha256": "3850bb9c802de2bfb9f6d80c14084729acae8567b78c14a020793f91359606e9",
+          "source_hash_matches_archive_and_import_manifest": true,
+          "record_semantic_sha256": "65e6b13a01c43c9157a37717a35b66802398858ffaac07ad4b823b193751bf32",
+          "channels_csv_rows": 1427284,
+          "channels_csv_record_semantic_sha256": "65e6b13a01c43c9157a37717a35b66802398858ffaac07ad4b823b193751bf32",
+          "channels_csv_all_records_and_source_lines_match": true,
+          "canonical_loads_leg_rows": 1427284,
+          "expected_canonical_numeric_sha256": "ab9344d8d038d103c7b2279bcadc9821873783f6e3b458c0935570ca5110256c",
+          "loads_canonical_numeric_sha256": "ab9344d8d038d103c7b2279bcadc9821873783f6e3b458c0935570ca5110256c",
+          "all_canonical_leg_readings_match": true
+        }
+      },
+      "input_manifest_hashes_vs_verified_archive": {
+        "channel_files": 22,
+        "matching_channel_hashes_and_sizes": 22,
+        "label_hash_matches": true
+      },
+      "counts": {
+        "loads_rows": 1455241,
+        "original_mains_union_timestamps": 1427284,
+        "rows_with_2_original_mains_legs": 1427284,
+        "exact_original_leg_sums_checked": 1427284,
+        "negative_residual_rows_with_original_mains_checked": 1069,
+        "rows_with_0_original_mains_legs": 27957
+      },
+      "all_channels_csv_rows_scanned": 10936708,
+      "output_hash_checks": {
+        "channels.csv": {
+          "sha256": "6a92d5f64141d2a0a39d2b5d996c5ed1df67aabc6f4b3097ce4290234066baa1",
+          "size_bytes": 294701263,
+          "matches_import_manifest": true
+        },
+        "loads.csv": {
+          "sha256": "ff7633a3a544d84dc38bf2026353568b1fc71cc9e49cb4bd9f90f5997dd8dc2e",
+          "size_bytes": 88575565,
+          "matches_import_manifest": true
+        }
+      },
+      "verified": true,
+      "elapsed_seconds": 22.659,
+      "finished_utc": "2026-10-26T02:02:08.657049+00:00"
+    },
+    "4": {
+      "house": 4,
+      "scope": "Every mains source record, all derived mains fields, and importer source hashes.",
+      "export_manifest_sha256": "74bf0d7fa6f96e70e63302797b805cf8ccb2b97f953c1b1f90ab415392a59d29",
+      "importer_recorded_source_sha256": "a0e529ca175fdcde3209d4562af6ce7304af233d1ca8ca948f9537f0e9198954",
+      "mismatch_count": 0,
+      "mismatch_examples": [],
+      "sources": {
+        "1": {
+          "source_rows": 1679839,
+          "unique_timestamps": 1679839,
+          "identical_duplicate_rows": 0,
+          "conflicting_duplicate_rows": 0,
+          "out_of_order_rows": 0,
+          "source_sha256": "278579c90c93e897957a44511e94835d2eeefdd27185a5ca9b54cb0a7853047c",
+          "source_hash_matches_archive_and_import_manifest": true,
+          "record_semantic_sha256": "a65e6f7eec45b0797a20ed75a7461db6d2ccf4ddc8c67b920dafd70601f0fd4e",
+          "channels_csv_rows": 1679839,
+          "channels_csv_record_semantic_sha256": "a65e6f7eec45b0797a20ed75a7461db6d2ccf4ddc8c67b920dafd70601f0fd4e",
+          "channels_csv_all_records_and_source_lines_match": true,
+          "canonical_loads_leg_rows": 1679839,
+          "expected_canonical_numeric_sha256": "247aa25f0c94ff0229dda048aa6ae4e1411e2c6b3b9992bb9915b23035828060",
+          "loads_canonical_numeric_sha256": "247aa25f0c94ff0229dda048aa6ae4e1411e2c6b3b9992bb9915b23035828060",
+          "all_canonical_leg_readings_match": true
+        },
+        "2": {
+          "source_rows": 1679839,
+          "unique_timestamps": 1679839,
+          "identical_duplicate_rows": 0,
+          "conflicting_duplicate_rows": 0,
+          "out_of_order_rows": 0,
+          "source_sha256": "8433d41b8a70d08144e6ff93f76c825d5a6080b8035e22c5aeb516e2b4c70167",
+          "source_hash_matches_archive_and_import_manifest": true,
+          "record_semantic_sha256": "bb950779b2b1664b238fe3b29e4f5567d1d355fe0cbb15bb715407a2340ce07a",
+          "channels_csv_rows": 1679839,
+          "channels_csv_record_semantic_sha256": "bb950779b2b1664b238fe3b29e4f5567d1d355fe0cbb15bb715407a2340ce07a",
+          "channels_csv_all_records_and_source_lines_match": true,
+          "canonical_loads_leg_rows": 1679839,
+          "expected_canonical_numeric_sha256": "1d2e2557fe84941dd97b1a3a717b417fb369fe7b892e1a48b534ca474a9154aa",
+          "loads_canonical_numeric_sha256": "1d2e2557fe84941dd97b1a3a717b417fb369fe7b892e1a48b534ca474a9154aa",
+          "all_canonical_leg_readings_match": true
+        }
+      },
+      "input_manifest_hashes_vs_verified_archive": {
+        "channel_files": 20,
+        "matching_channel_hashes_and_sizes": 20,
+        "label_hash_matches": true
+      },
+      "counts": {
+        "loads_rows": 1822126,
+        "original_mains_union_timestamps": 1679839,
+        "rows_with_2_original_mains_legs": 1679839,
+        "exact_original_leg_sums_checked": 1679839,
+        "negative_residual_rows_with_original_mains_checked": 503,
+        "rows_with_0_original_mains_legs": 142287
+      },
+      "all_channels_csv_rows_scanned": 13626212,
+      "output_hash_checks": {
+        "channels.csv": {
+          "sha256": "47cf3aa6ffcf7ca1e9f4b9732451fb07de328a3372e3102e664e766a2ad0e483",
+          "size_bytes": 366783236,
+          "matches_import_manifest": true
+        },
+        "loads.csv": {
+          "sha256": "bb07321332f4b67d6fa0fff5cede4c423b3b15ca3e046c22aabb84334e4b6e55",
+          "size_bytes": 106548175,
+          "matches_import_manifest": true
+        }
+      },
+      "verified": true,
+      "elapsed_seconds": 28.898,
+      "finished_utc": "2026-10-26T02:02:37.556006+00:00"
+    },
+    "5": {
+      "house": 5,
+      "scope": "Every mains source record, all derived mains fields, and importer source hashes.",
+      "export_manifest_sha256": "8686307cdd1526d7193ee58e0f9ed9078264b08cea9fb119cf271de32de2520f",
+      "importer_recorded_source_sha256": "a0e529ca175fdcde3209d4562af6ce7304af233d1ca8ca948f9537f0e9198954",
+      "mismatch_count": 0,
+      "mismatch_examples": [],
+      "sources": {
+        "1": {
+          "source_rows": 302122,
+          "unique_timestamps": 302122,
+          "identical_duplicate_rows": 0,
+          "conflicting_duplicate_rows": 0,
+          "out_of_order_rows": 0,
+          "source_sha256": "15285405e2b7637639f5ace07d31d844af1eb0914bc2231d75ab8767b965cbf5",
+          "source_hash_matches_archive_and_import_manifest": true,
+          "record_semantic_sha256": "2d3b3c990e2133ad66389b25bf6bba14cbdbb117d3cf5b111649136fe1491091",
+          "channels_csv_rows": 302122,
+          "channels_csv_record_semantic_sha256": "2d3b3c990e2133ad66389b25bf6bba14cbdbb117d3cf5b111649136fe1491091",
+          "channels_csv_all_records_and_source_lines_match": true,
+          "canonical_loads_leg_rows": 302122,
+          "expected_canonical_numeric_sha256": "c7f0cc6a1500055e8cdb09889cb2daa89b720243186dad8b84bee50b3d8d1393",
+          "loads_canonical_numeric_sha256": "c7f0cc6a1500055e8cdb09889cb2daa89b720243186dad8b84bee50b3d8d1393",
+          "all_canonical_leg_readings_match": true
+        },
+        "2": {
+          "source_rows": 302122,
+          "unique_timestamps": 302122,
+          "identical_duplicate_rows": 0,
+          "conflicting_duplicate_rows": 0,
+          "out_of_order_rows": 0,
+          "source_sha256": "b0bdc1a12547d7d38faedaddfa1930e38543264fcd549f7945f570161c33cc22",
+          "source_hash_matches_archive_and_import_manifest": true,
+          "record_semantic_sha256": "2bc10d350b22f46edd601fbc8f3252d2e793d5cff1e724072118b423a6e3a3e6",
+          "channels_csv_rows": 302122,
+          "channels_csv_record_semantic_sha256": "2bc10d350b22f46edd601fbc8f3252d2e793d5cff1e724072118b423a6e3a3e6",
+          "channels_csv_all_records_and_source_lines_match": true,
+          "canonical_loads_leg_rows": 302122,
+          "expected_canonical_numeric_sha256": "c692764d3aad484cedca601271d00492d21ffc2e16c2e21d45646c6a213934ac",
+          "loads_canonical_numeric_sha256": "c692764d3aad484cedca601271d00492d21ffc2e16c2e21d45646c6a213934ac",
+          "all_canonical_leg_readings_match": true
+        }
+      },
+      "input_manifest_hashes_vs_verified_archive": {
+        "channel_files": 26,
+        "matching_channel_hashes_and_sizes": 26,
+        "label_hash_matches": true
+      },
+      "counts": {
+        "loads_rows": 305088,
+        "original_mains_union_timestamps": 302122,
+        "rows_with_2_original_mains_legs": 302122,
+        "exact_original_leg_sums_checked": 302122,
+        "rows_with_0_original_mains_legs": 2966,
+        "negative_residual_rows_with_original_mains_checked": 184
+      },
+      "all_channels_csv_rows_scanned": 2534252,
+      "output_hash_checks": {
+        "channels.csv": {
+          "sha256": "d2f591200736214f9a4759928fcd8435795d422c276b2e51449694c39d3bd4a9",
+          "size_bytes": 66326850,
+          "matches_import_manifest": true
+        },
+        "loads.csv": {
+          "sha256": "c86485706a50b82716dc0d7d7f6d99272c676811413d1b1a6e14840eeb346d62",
+          "size_bytes": 19771831,
+          "matches_import_manifest": true
+        }
+      },
+      "verified": true,
+      "elapsed_seconds": 5.086,
+      "finished_utc": "2026-10-26T02:02:42.643290+00:00"
+    },
+    "6": {
+      "house": 6,
+      "scope": "Every mains source record, all derived mains fields, and importer source hashes.",
+      "export_manifest_sha256": "f339a7630fdda56d4c51e6b72cf2fe4fa778854aab6e9fe8546aea051e667f11",
+      "importer_recorded_source_sha256": "a0e529ca175fdcde3209d4562af6ce7304af233d1ca8ca948f9537f0e9198954",
+      "mismatch_count": 0,
+      "mismatch_examples": [],
+      "sources": {
+        "1": {
+          "source_rows": 887457,
+          "unique_timestamps": 887457,
+          "identical_duplicate_rows": 0,
+          "conflicting_duplicate_rows": 0,
+          "out_of_order_rows": 2342,
+          "source_sha256": "203d4fa7c176a448f219e1dbea2b36526a2df0f737c211768b9969df4d05a742",
+          "source_hash_matches_archive_and_import_manifest": true,
+          "record_semantic_sha256": "8eb0bf4ab1528d1a4ff2aa819c1dbdd4f21f1ec8a000da3b66dc56ff42da6dd9",
+          "channels_csv_rows": 887457,
+          "channels_csv_record_semantic_sha256": "8eb0bf4ab1528d1a4ff2aa819c1dbdd4f21f1ec8a000da3b66dc56ff42da6dd9",
+          "channels_csv_all_records_and_source_lines_match": true,
+          "canonical_loads_leg_rows": 887457,
+          "expected_canonical_numeric_sha256": "2da14ad217ab18fd086e2157417184851245b654e22c2dad0b610d6dd2dc36f6",
+          "loads_canonical_numeric_sha256": "2da14ad217ab18fd086e2157417184851245b654e22c2dad0b610d6dd2dc36f6",
+          "all_canonical_leg_readings_match": true
+        },
+        "2": {
+          "source_rows": 887457,
+          "unique_timestamps": 887457,
+          "identical_duplicate_rows": 0,
+          "conflicting_duplicate_rows": 0,
+          "out_of_order_rows": 2378,
+          "source_sha256": "09924d3954d0cc021753a7876206b871a23793f5ea16efba0af04365d844dce2",
+          "source_hash_matches_archive_and_import_manifest": true,
+          "record_semantic_sha256": "f03a19347df3583797742c48c3c4289b386493fe7466350a4c56312e98e08994",
+          "channels_csv_rows": 887457,
+          "channels_csv_record_semantic_sha256": "f03a19347df3583797742c48c3c4289b386493fe7466350a4c56312e98e08994",
+          "channels_csv_all_records_and_source_lines_match": true,
+          "canonical_loads_leg_rows": 887457,
+          "expected_canonical_numeric_sha256": "a33401282a46454561a1d4d0ee59a02abc38031873c2f9bb67cc996f7f8d60b4",
+          "loads_canonical_numeric_sha256": "a33401282a46454561a1d4d0ee59a02abc38031873c2f9bb67cc996f7f8d60b4",
+          "all_canonical_leg_readings_match": true
+        }
+      },
+      "input_manifest_hashes_vs_verified_archive": {
+        "channel_files": 17,
+        "matching_channel_hashes_and_sizes": 17,
+        "label_hash_matches": true
+      },
+      "counts": {
+        "loads_rows": 1072233,
+        "original_mains_union_timestamps": 887457,
+        "rows_with_2_original_mains_legs": 887457,
+        "exact_original_leg_sums_checked": 887457,
+        "rows_with_0_original_mains_legs": 184776,
+        "negative_residual_rows_with_original_mains_checked": 310
+      },
+      "all_channels_csv_rows_scanned": 7429434,
+      "output_hash_checks": {
+        "channels.csv": {
+          "sha256": "d5329377c4e4893b564b3002a40b023ae84e29fdea897eca3cff3094200e9ccc",
+          "size_bytes": 198769341,
+          "matches_import_manifest": true
+        },
+        "loads.csv": {
+          "sha256": "24fc2e99326f378d1c9189d199d08c2ca178e81385324c2abd0b45faa2f565c7",
+          "size_bytes": 63367991,
+          "matches_import_manifest": true
+        }
+      },
+      "verified": true,
+      "elapsed_seconds": 16.718,
+      "finished_utc": "2026-10-26T02:02:59.362163+00:00"
+    }
+  },
+  "archive_sha256": "9911f3fd7d8c7fe89a3ce4634374917fa52a536103cd203cd6e7fa7ccb0ef420",
+  "archive_provenance_sha256": "39d4580d0b9311699cfce2f191381e3699f1317d8d2a583ebe3648437829c9ed",
+  "validator_sha256": "03e09182e91f616d3d893cd6dd8af802dec29bd64a56305e3969df6a6ce6b98c",
+  "all_verified_houses_passed": true,
+  "all_six_houses_verified": true,
+  "execution_archive_provenance_sha256": "5c51a9468775d38564fa57677be20e314d37383890207c1656ad2372d2001e47",
+  "public_path_note": "Machine-local path prefixes replaced by placeholders; source/data hashes unchanged."
+}
