@@ -1,0 +1,103 @@
+{
+  "scope": "Full canonical low-frequency REDD Version 1.0; six houses, 116 channels.",
+  "importer_commit": "447946445e61a0dd2df667b6d7cab9e50950a0a0",
+  "importer_sha256": "a0e529ca175fdcde3209d4562af6ce7304af233d1ca8ca948f9537f0e9198954",
+  "python_version": "3.12.14",
+  "started_utc": "2026-10-26T01:56:52.131552+00:00",
+  "houses": [
+    {
+      "house": 2,
+      "status": "success",
+      "counts": {
+        "timestamp_rows": 1200453,
+        "complete_rows": 316840,
+        "mains_complete_rows": 1198534,
+        "targets_complete_rows": 318759,
+        "negative_residual_rows": 273,
+        "source_observations": 5265899,
+        "identical_duplicate_records": 0
+      },
+      "manifest_sha256": "1394aa2e85b4dbe16e52104b7778e6f721a4971d010f300bd39f3115f4b59fe1",
+      "elapsed_seconds": 19.075
+    },
+    {
+      "house": 1,
+      "status": "success",
+      "counts": {
+        "timestamp_rows": 1900790,
+        "complete_rows": 406748,
+        "mains_complete_rows": 1561660,
+        "targets_complete_rows": 745878,
+        "negative_residual_rows": 520,
+        "source_observations": 16549124,
+        "identical_duplicate_records": 0
+      },
+      "manifest_sha256": "a750c36b5ac2b46b1c62e8ad87c68940f405941df1c018c7f8ae00af3243060c",
+      "elapsed_seconds": 56.128
+    },
+    {
+      "house": 3,
+      "status": "success",
+      "counts": {
+        "timestamp_rows": 1455241,
+        "complete_rows": 376150,
+        "mains_complete_rows": 1427284,
+        "targets_complete_rows": 404107,
+        "negative_residual_rows": 1069,
+        "source_observations": 10936708,
+        "identical_duplicate_records": 0
+      },
+      "manifest_sha256": "8e75aa382970561d198129bff72a3d43cc1b3326e104fb56d8a51c6128341f68",
+      "elapsed_seconds": 41.438
+    },
+    {
+      "house": 4,
+      "status": "success",
+      "counts": {
+        "timestamp_rows": 1822126,
+        "complete_rows": 428076,
+        "mains_complete_rows": 1679839,
+        "targets_complete_rows": 570363,
+        "negative_residual_rows": 503,
+        "source_observations": 13626212,
+        "identical_duplicate_records": 0
+      },
+      "manifest_sha256": "74bf0d7fa6f96e70e63302797b805cf8ccb2b97f953c1b1f90ab415392a59d29",
+      "elapsed_seconds": 49.495
+    },
+    {
+      "house": 5,
+      "status": "success",
+      "counts": {
+        "timestamp_rows": 305088,
+        "complete_rows": 77451,
+        "mains_complete_rows": 302122,
+        "targets_complete_rows": 80417,
+        "negative_residual_rows": 184,
+        "source_observations": 2534252,
+        "identical_duplicate_records": 0
+      },
+      "manifest_sha256": "8686307cdd1526d7193ee58e0f9ed9078264b08cea9fb119cf271de32de2520f",
+      "elapsed_seconds": 9.73
+    },
+    {
+      "house": 6,
+      "status": "success",
+      "counts": {
+        "timestamp_rows": 1072233,
+        "complete_rows": 192192,
+        "mains_complete_rows": 887457,
+        "targets_complete_rows": 376968,
+        "negative_residual_rows": 310,
+        "source_observations": 7429434,
+        "identical_duplicate_records": 0
+      },
+      "manifest_sha256": "f339a7630fdda56d4c51e6b72cf2fe4fa778854aab6e9fe8546aea051e667f11",
+      "elapsed_seconds": 28.377
+    }
+  ],
+  "status": "success",
+  "elapsed_seconds": 204.245,
+  "completed_utc": "2026-10-26T02:00:16.377301+00:00",
+  "peak_resident_mib": 50.234375
+}

@@ -1,0 +1,14 @@
+\begin{tikzpicture}
+\begin{axis}[whitepaper,height=2.85in,ybar,bar width=27pt,ymin=0,ymax=33,
+ xmin=.4,xmax=6.6,xtick={1,2,3,4,5,6},
+ xticklabels={House 1,House 2,House 3,House 4,House 5,House 6},
+ ylabel={All-channel exact rows / both-mains rows (\%)}]
+\addplot[fill=EvidenceBlue,draw=black!65] coordinates {(1,26.04587426) (2,26.43562886) (3,26.35425045) (4,25.48315642) (5,25.63567036) (6,21.65648589)};
+\node[font=\small,anchor=south] at (axis cs:1,26.545874262003256){406,748};
+\node[font=\small,anchor=south] at (axis cs:2,26.93562885992387){316,840};
+\node[font=\small,anchor=south] at (axis cs:3,26.854250450505994){376,150};
+\node[font=\small,anchor=south] at (axis cs:4,25.983156421538016){428,076};
+\node[font=\small,anchor=south] at (axis cs:5,26.135670358332064){77,451};
+\node[font=\small,anchor=south] at (axis cs:6,22.15648589171081){192,192};
+\end{axis}
+\end{tikzpicture}

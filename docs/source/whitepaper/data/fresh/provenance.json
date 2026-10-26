@@ -1,0 +1,2754 @@
+{
+  "schema_version": 1,
+  "verification_started_utc": "2026-10-26T01:55:40.579245+00:00",
+  "dataset_root": "REDD_RELEASE",
+  "verification_scope": "Archive-to-local byte comparison, not independent download authentication.",
+  "read_only_sources": true,
+  "extracted_members": 0,
+  "hash_algorithm": "SHA-256",
+  "errors": [],
+  "archive_members": [
+    {
+      "name": "low_freq",
+      "type": "directory",
+      "size_bytes": 0,
+      "normalized_name": "low_freq",
+      "canonical": false
+    },
+    {
+      "name": "low_freq/house_4",
+      "type": "directory",
+      "size_bytes": 0,
+      "normalized_name": "low_freq/house_4",
+      "canonical": false
+    },
+    {
+      "name": "low_freq/house_4/channel_16.dat",
+      "type": "regular_file",
+      "size_bytes": 9125821,
+      "normalized_name": "low_freq/house_4/channel_16.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_4/labels.dat",
+      "type": "regular_file",
+      "size_bytes": 289,
+      "normalized_name": "low_freq/house_4/labels.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_4/channel_13.dat",
+      "type": "regular_file",
+      "size_bytes": 9708549,
+      "normalized_name": "low_freq/house_4/channel_13.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_4/channel_20.dat",
+      "type": "regular_file",
+      "size_bytes": 9125815,
+      "normalized_name": "low_freq/house_4/channel_20.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_4/channel_18.dat",
+      "type": "regular_file",
+      "size_bytes": 9132858,
+      "normalized_name": "low_freq/house_4/channel_18.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_4/channel_17.dat",
+      "type": "regular_file",
+      "size_bytes": 9126351,
+      "normalized_name": "low_freq/house_4/channel_17.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_4/channel_5.dat",
+      "type": "regular_file",
+      "size_bytes": 9211608,
+      "normalized_name": "low_freq/house_4/channel_5.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_4/channel_9.dat",
+      "type": "regular_file",
+      "size_bytes": 9127404,
+      "normalized_name": "low_freq/house_4/channel_9.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_4/channel_1.dat",
+      "type": "regular_file",
+      "size_bytes": 29363930,
+      "normalized_name": "low_freq/house_4/channel_1.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_4/channel_7.dat",
+      "type": "regular_file",
+      "size_bytes": 9142074,
+      "normalized_name": "low_freq/house_4/channel_7.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_4/channel_19.dat",
+      "type": "regular_file",
+      "size_bytes": 9183106,
+      "normalized_name": "low_freq/house_4/channel_19.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_4/channel_4.dat",
+      "type": "regular_file",
+      "size_bytes": 9777828,
+      "normalized_name": "low_freq/house_4/channel_4.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_4/channel_3.dat",
+      "type": "regular_file",
+      "size_bytes": 9283876,
+      "normalized_name": "low_freq/house_4/channel_3.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_4/channel_10.dat",
+      "type": "regular_file",
+      "size_bytes": 9126773,
+      "normalized_name": "low_freq/house_4/channel_10.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_4/channel_2.dat",
+      "type": "regular_file",
+      "size_bytes": 29440408,
+      "normalized_name": "low_freq/house_4/channel_2.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_4/channel_14.dat",
+      "type": "regular_file",
+      "size_bytes": 9584616,
+      "normalized_name": "low_freq/house_4/channel_14.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_4/channel_12.dat",
+      "type": "regular_file",
+      "size_bytes": 9125813,
+      "normalized_name": "low_freq/house_4/channel_12.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_4/channel_6.dat",
+      "type": "regular_file",
+      "size_bytes": 9125848,
+      "normalized_name": "low_freq/house_4/channel_6.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_4/channel_15.dat",
+      "type": "regular_file",
+      "size_bytes": 9137776,
+      "normalized_name": "low_freq/house_4/channel_15.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_4/channel_11.dat",
+      "type": "regular_file",
+      "size_bytes": 9125815,
+      "normalized_name": "low_freq/house_4/channel_11.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_4/channel_8.dat",
+      "type": "regular_file",
+      "size_bytes": 9133238,
+      "normalized_name": "low_freq/house_4/channel_8.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_1",
+      "type": "directory",
+      "size_bytes": 0,
+      "normalized_name": "low_freq/house_1",
+      "canonical": false
+    },
+    {
+      "name": "low_freq/house_1/channel_16.dat",
+      "type": "regular_file",
+      "size_bytes": 11937946,
+      "normalized_name": "low_freq/house_1/channel_16.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_1/labels.dat",
+      "type": "regular_file",
+      "size_bytes": 269,
+      "normalized_name": "low_freq/house_1/labels.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_1/channel_13.dat",
+      "type": "regular_file",
+      "size_bytes": 11936699,
+      "normalized_name": "low_freq/house_1/channel_13.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_1/channel_20.dat",
+      "type": "regular_file",
+      "size_bytes": 11963924,
+      "normalized_name": "low_freq/house_1/channel_20.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_1/channel_18.dat",
+      "type": "regular_file",
+      "size_bytes": 12132613,
+      "normalized_name": "low_freq/house_1/channel_18.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_1/channel_17.dat",
+      "type": "regular_file",
+      "size_bytes": 12200472,
+      "normalized_name": "low_freq/house_1/channel_17.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_1/channel_5.dat",
+      "type": "regular_file",
+      "size_bytes": 12320327,
+      "normalized_name": "low_freq/house_1/channel_5.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_1/channel_9.dat",
+      "type": "regular_file",
+      "size_bytes": 12346760,
+      "normalized_name": "low_freq/house_1/channel_9.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_1/channel_1.dat",
+      "type": "regular_file",
+      "size_bytes": 27690088,
+      "normalized_name": "low_freq/house_1/channel_1.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_1/channel_7.dat",
+      "type": "regular_file",
+      "size_bytes": 12679922,
+      "normalized_name": "low_freq/house_1/channel_7.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_1/channel_19.dat",
+      "type": "regular_file",
+      "size_bytes": 11934051,
+      "normalized_name": "low_freq/house_1/channel_19.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_1/channel_4.dat",
+      "type": "regular_file",
+      "size_bytes": 11942563,
+      "normalized_name": "low_freq/house_1/channel_4.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_1/channel_3.dat",
+      "type": "regular_file",
+      "size_bytes": 11943069,
+      "normalized_name": "low_freq/house_1/channel_3.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_1/channel_10.dat",
+      "type": "regular_file",
+      "size_bytes": 11948363,
+      "normalized_name": "low_freq/house_1/channel_10.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_1/channel_2.dat",
+      "type": "regular_file",
+      "size_bytes": 27090157,
+      "normalized_name": "low_freq/house_1/channel_2.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_1/channel_14.dat",
+      "type": "regular_file",
+      "size_bytes": 11934817,
+      "normalized_name": "low_freq/house_1/channel_14.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_1/channel_12.dat",
+      "type": "regular_file",
+      "size_bytes": 11949567,
+      "normalized_name": "low_freq/house_1/channel_12.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_1/channel_6.dat",
+      "type": "regular_file",
+      "size_bytes": 12002162,
+      "normalized_name": "low_freq/house_1/channel_6.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_1/channel_15.dat",
+      "type": "regular_file",
+      "size_bytes": 11943462,
+      "normalized_name": "low_freq/house_1/channel_15.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_1/channel_11.dat",
+      "type": "regular_file",
+      "size_bytes": 11962371,
+      "normalized_name": "low_freq/house_1/channel_11.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_1/channel_8.dat",
+      "type": "regular_file",
+      "size_bytes": 12686384,
+      "normalized_name": "low_freq/house_1/channel_8.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_3",
+      "type": "directory",
+      "size_bytes": 0,
+      "normalized_name": "low_freq/house_3",
+      "canonical": false
+    },
+    {
+      "name": "low_freq/house_3/channel_16.dat",
+      "type": "regular_file",
+      "size_bytes": 6471304,
+      "normalized_name": "low_freq/house_3/channel_16.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_3/labels.dat",
+      "type": "regular_file",
+      "size_bytes": 308,
+      "normalized_name": "low_freq/house_3/labels.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_3/channel_13.dat",
+      "type": "regular_file",
+      "size_bytes": 6483814,
+      "normalized_name": "low_freq/house_3/channel_13.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_3/channel_21.dat",
+      "type": "regular_file",
+      "size_bytes": 6522810,
+      "normalized_name": "low_freq/house_3/channel_21.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_3/channel_20.dat",
+      "type": "regular_file",
+      "size_bytes": 6484876,
+      "normalized_name": "low_freq/house_3/channel_20.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_3/channel_18.dat",
+      "type": "regular_file",
+      "size_bytes": 6466041,
+      "normalized_name": "low_freq/house_3/channel_18.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_3/channel_17.dat",
+      "type": "regular_file",
+      "size_bytes": 6679559,
+      "normalized_name": "low_freq/house_3/channel_17.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_3/channel_5.dat",
+      "type": "regular_file",
+      "size_bytes": 6466269,
+      "normalized_name": "low_freq/house_3/channel_5.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_3/channel_9.dat",
+      "type": "regular_file",
+      "size_bytes": 6474727,
+      "normalized_name": "low_freq/house_3/channel_9.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_3/channel_22.dat",
+      "type": "regular_file",
+      "size_bytes": 6496969,
+      "normalized_name": "low_freq/house_3/channel_22.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_3/channel_1.dat",
+      "type": "regular_file",
+      "size_bytes": 25658419,
+      "normalized_name": "low_freq/house_3/channel_1.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_3/channel_7.dat",
+      "type": "regular_file",
+      "size_bytes": 6764938,
+      "normalized_name": "low_freq/house_3/channel_7.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_3/channel_19.dat",
+      "type": "regular_file",
+      "size_bytes": 6580614,
+      "normalized_name": "low_freq/house_3/channel_19.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_3/channel_4.dat",
+      "type": "regular_file",
+      "size_bytes": 6465724,
+      "normalized_name": "low_freq/house_3/channel_4.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_3/channel_3.dat",
+      "type": "regular_file",
+      "size_bytes": 6477040,
+      "normalized_name": "low_freq/house_3/channel_3.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_3/channel_10.dat",
+      "type": "regular_file",
+      "size_bytes": 6478435,
+      "normalized_name": "low_freq/house_3/channel_10.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_3/channel_2.dat",
+      "type": "regular_file",
+      "size_bytes": 25091679,
+      "normalized_name": "low_freq/house_3/channel_2.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_3/channel_14.dat",
+      "type": "regular_file",
+      "size_bytes": 6504204,
+      "normalized_name": "low_freq/house_3/channel_14.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_3/channel_12.dat",
+      "type": "regular_file",
+      "size_bytes": 6506716,
+      "normalized_name": "low_freq/house_3/channel_12.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_3/channel_6.dat",
+      "type": "regular_file",
+      "size_bytes": 7005720,
+      "normalized_name": "low_freq/house_3/channel_6.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_3/channel_15.dat",
+      "type": "regular_file",
+      "size_bytes": 6465717,
+      "normalized_name": "low_freq/house_3/channel_15.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_3/channel_11.dat",
+      "type": "regular_file",
+      "size_bytes": 6659144,
+      "normalized_name": "low_freq/house_3/channel_11.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_3/channel_8.dat",
+      "type": "regular_file",
+      "size_bytes": 6465777,
+      "normalized_name": "low_freq/house_3/channel_8.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_5",
+      "type": "directory",
+      "size_bytes": 0,
+      "normalized_name": "low_freq/house_5",
+      "canonical": false
+    },
+    {
+      "name": "low_freq/house_5/channel_16.dat",
+      "type": "regular_file",
+      "size_bytes": 1287045,
+      "normalized_name": "low_freq/house_5/channel_16.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_5/labels.dat",
+      "type": "regular_file",
+      "size_bytes": 369,
+      "normalized_name": "low_freq/house_5/labels.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_5/channel_13.dat",
+      "type": "regular_file",
+      "size_bytes": 1292221,
+      "normalized_name": "low_freq/house_5/channel_13.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_5/channel_21.dat",
+      "type": "regular_file",
+      "size_bytes": 1286674,
+      "normalized_name": "low_freq/house_5/channel_21.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_5/channel_20.dat",
+      "type": "regular_file",
+      "size_bytes": 1288981,
+      "normalized_name": "low_freq/house_5/channel_20.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_5/channel_24.dat",
+      "type": "regular_file",
+      "size_bytes": 1287677,
+      "normalized_name": "low_freq/house_5/channel_24.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_5/channel_18.dat",
+      "type": "regular_file",
+      "size_bytes": 1351048,
+      "normalized_name": "low_freq/house_5/channel_18.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_5/channel_17.dat",
+      "type": "regular_file",
+      "size_bytes": 1287437,
+      "normalized_name": "low_freq/house_5/channel_17.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_5/channel_5.dat",
+      "type": "regular_file",
+      "size_bytes": 1296304,
+      "normalized_name": "low_freq/house_5/channel_5.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_5/channel_9.dat",
+      "type": "regular_file",
+      "size_bytes": 1286675,
+      "normalized_name": "low_freq/house_5/channel_9.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_5/channel_22.dat",
+      "type": "regular_file",
+      "size_bytes": 1311475,
+      "normalized_name": "low_freq/house_5/channel_22.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_5/channel_1.dat",
+      "type": "regular_file",
+      "size_bytes": 5463607,
+      "normalized_name": "low_freq/house_5/channel_1.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_5/channel_23.dat",
+      "type": "regular_file",
+      "size_bytes": 1378373,
+      "normalized_name": "low_freq/house_5/channel_23.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_5/channel_7.dat",
+      "type": "regular_file",
+      "size_bytes": 1286680,
+      "normalized_name": "low_freq/house_5/channel_7.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_5/channel_19.dat",
+      "type": "regular_file",
+      "size_bytes": 1308691,
+      "normalized_name": "low_freq/house_5/channel_19.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_5/channel_4.dat",
+      "type": "regular_file",
+      "size_bytes": 1286672,
+      "normalized_name": "low_freq/house_5/channel_4.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_5/channel_3.dat",
+      "type": "regular_file",
+      "size_bytes": 1291478,
+      "normalized_name": "low_freq/house_5/channel_3.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_5/channel_26.dat",
+      "type": "regular_file",
+      "size_bytes": 1286676,
+      "normalized_name": "low_freq/house_5/channel_26.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_5/channel_10.dat",
+      "type": "regular_file",
+      "size_bytes": 1371730,
+      "normalized_name": "low_freq/house_5/channel_10.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_5/channel_2.dat",
+      "type": "regular_file",
+      "size_bytes": 5341274,
+      "normalized_name": "low_freq/house_5/channel_2.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_5/channel_14.dat",
+      "type": "regular_file",
+      "size_bytes": 1286673,
+      "normalized_name": "low_freq/house_5/channel_14.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_5/channel_12.dat",
+      "type": "regular_file",
+      "size_bytes": 1292225,
+      "normalized_name": "low_freq/house_5/channel_12.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_5/channel_6.dat",
+      "type": "regular_file",
+      "size_bytes": 1299721,
+      "normalized_name": "low_freq/house_5/channel_6.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_5/channel_25.dat",
+      "type": "regular_file",
+      "size_bytes": 1286676,
+      "normalized_name": "low_freq/house_5/channel_25.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_5/channel_15.dat",
+      "type": "regular_file",
+      "size_bytes": 1286673,
+      "normalized_name": "low_freq/house_5/channel_15.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_5/channel_11.dat",
+      "type": "regular_file",
+      "size_bytes": 1306605,
+      "normalized_name": "low_freq/house_5/channel_11.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_5/channel_8.dat",
+      "type": "regular_file",
+      "size_bytes": 1286676,
+      "normalized_name": "low_freq/house_5/channel_8.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_2",
+      "type": "directory",
+      "size_bytes": 0,
+      "normalized_name": "low_freq/house_2",
+      "canonical": false
+    },
+    {
+      "name": "low_freq/house_2/labels.dat",
+      "type": "regular_file",
+      "size_bytes": 138,
+      "normalized_name": "low_freq/house_2/labels.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_2/channel_5.dat",
+      "type": "regular_file",
+      "size_bytes": 5101890,
+      "normalized_name": "low_freq/house_2/channel_5.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_2/channel_9.dat",
+      "type": "regular_file",
+      "size_bytes": 5384501,
+      "normalized_name": "low_freq/house_2/channel_9.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_2/channel_1.dat",
+      "type": "regular_file",
+      "size_bytes": 20422557,
+      "normalized_name": "low_freq/house_2/channel_1.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_2/channel_7.dat",
+      "type": "regular_file",
+      "size_bytes": 5100151,
+      "normalized_name": "low_freq/house_2/channel_7.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_2/channel_4.dat",
+      "type": "regular_file",
+      "size_bytes": 5208267,
+      "normalized_name": "low_freq/house_2/channel_4.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_2/channel_3.dat",
+      "type": "regular_file",
+      "size_bytes": 5198216,
+      "normalized_name": "low_freq/house_2/channel_3.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_2/channel_10.dat",
+      "type": "regular_file",
+      "size_bytes": 5110075,
+      "normalized_name": "low_freq/house_2/channel_10.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_2/channel_2.dat",
+      "type": "regular_file",
+      "size_bytes": 21025409,
+      "normalized_name": "low_freq/house_2/channel_2.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_2/channel_6.dat",
+      "type": "regular_file",
+      "size_bytes": 5135599,
+      "normalized_name": "low_freq/house_2/channel_6.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_2/channel_11.dat",
+      "type": "regular_file",
+      "size_bytes": 5100187,
+      "normalized_name": "low_freq/house_2/channel_11.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_2/channel_8.dat",
+      "type": "regular_file",
+      "size_bytes": 5108386,
+      "normalized_name": "low_freq/house_2/channel_8.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_6",
+      "type": "directory",
+      "size_bytes": 0,
+      "normalized_name": "low_freq/house_6",
+      "canonical": false
+    },
+    {
+      "name": "low_freq/house_6/channel_16.dat",
+      "type": "regular_file",
+      "size_bytes": 6079563,
+      "normalized_name": "low_freq/house_6/channel_16.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_6/labels.dat",
+      "type": "regular_file",
+      "size_bytes": 259,
+      "normalized_name": "low_freq/house_6/labels.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_6/channel_13.dat",
+      "type": "regular_file",
+      "size_bytes": 6040639,
+      "normalized_name": "low_freq/house_6/channel_13.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_6/channel_17.dat",
+      "type": "regular_file",
+      "size_bytes": 6078486,
+      "normalized_name": "low_freq/house_6/channel_17.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_6/channel_5.dat",
+      "type": "regular_file",
+      "size_bytes": 6032878,
+      "normalized_name": "low_freq/house_6/channel_5.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_6/channel_9.dat",
+      "type": "regular_file",
+      "size_bytes": 6031612,
+      "normalized_name": "low_freq/house_6/channel_9.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_6/channel_1.dat",
+      "type": "regular_file",
+      "size_bytes": 15275056,
+      "normalized_name": "low_freq/house_6/channel_1.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_6/channel_7.dat",
+      "type": "regular_file",
+      "size_bytes": 6032296,
+      "normalized_name": "low_freq/house_6/channel_7.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_6/channel_4.dat",
+      "type": "regular_file",
+      "size_bytes": 6031682,
+      "normalized_name": "low_freq/house_6/channel_4.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_6/channel_3.dat",
+      "type": "regular_file",
+      "size_bytes": 6032044,
+      "normalized_name": "low_freq/house_6/channel_3.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_6/channel_10.dat",
+      "type": "regular_file",
+      "size_bytes": 6133998,
+      "normalized_name": "low_freq/house_6/channel_10.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_6/channel_2.dat",
+      "type": "regular_file",
+      "size_bytes": 16020452,
+      "normalized_name": "low_freq/house_6/channel_2.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_6/channel_14.dat",
+      "type": "regular_file",
+      "size_bytes": 6697921,
+      "normalized_name": "low_freq/house_6/channel_14.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_6/channel_12.dat",
+      "type": "regular_file",
+      "size_bytes": 6182443,
+      "normalized_name": "low_freq/house_6/channel_12.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_6/channel_6.dat",
+      "type": "regular_file",
+      "size_bytes": 6039775,
+      "normalized_name": "low_freq/house_6/channel_6.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_6/channel_15.dat",
+      "type": "regular_file",
+      "size_bytes": 6077499,
+      "normalized_name": "low_freq/house_6/channel_15.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_6/channel_11.dat",
+      "type": "regular_file",
+      "size_bytes": 6143270,
+      "normalized_name": "low_freq/house_6/channel_11.dat",
+      "canonical": true
+    },
+    {
+      "name": "low_freq/house_6/channel_8.dat",
+      "type": "regular_file",
+      "size_bytes": 6418392,
+      "normalized_name": "low_freq/house_6/channel_8.dat",
+      "canonical": true
+    }
+  ],
+  "canonical_files": [
+    {
+      "archive_member": "low_freq/house_4/channel_16.dat",
+      "house": 4,
+      "archive_size_bytes": 9125821,
+      "archive_sha256": "8b62ed11ba3d186774565fd546101d0524bb372d7db1379c33e9e49397cdf686",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_4/channel_16.dat",
+        "size_bytes": 9125821,
+        "sha256": "8b62ed11ba3d186774565fd546101d0524bb372d7db1379c33e9e49397cdf686",
+        "filesystem_mtime_utc": "2011-08-20T20:59:42+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_4/labels.dat",
+      "house": 4,
+      "archive_size_bytes": 289,
+      "archive_sha256": "006626173f6dfcdd5da3957554987adc4025bc42e9827c6f0c3e7265b3de671e",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_4/labels.dat",
+        "size_bytes": 289,
+        "sha256": "006626173f6dfcdd5da3957554987adc4025bc42e9827c6f0c3e7265b3de671e",
+        "filesystem_mtime_utc": "2011-08-20T21:00:04+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_4/channel_13.dat",
+      "house": 4,
+      "archive_size_bytes": 9708549,
+      "archive_sha256": "d58eddde0f243d15b12839058be855011ff4f63a9bc85ddbbb0a0e42c919a376",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_4/channel_13.dat",
+        "size_bytes": 9708549,
+        "sha256": "d58eddde0f243d15b12839058be855011ff4f63a9bc85ddbbb0a0e42c919a376",
+        "filesystem_mtime_utc": "2011-08-20T20:59:27+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_4/channel_20.dat",
+      "house": 4,
+      "archive_size_bytes": 9125815,
+      "archive_sha256": "058bdf0fc6ebcde3195d4e3ba70660d2070f6c985569539ef0add4fdd3e4e241",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_4/channel_20.dat",
+        "size_bytes": 9125815,
+        "sha256": "058bdf0fc6ebcde3195d4e3ba70660d2070f6c985569539ef0add4fdd3e4e241",
+        "filesystem_mtime_utc": "2011-08-20T21:00:04+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_4/channel_18.dat",
+      "house": 4,
+      "archive_size_bytes": 9132858,
+      "archive_sha256": "b887f08acb70a539ebd5eb51e4a531133e9428941f5b433c8c70f9597bda97ff",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_4/channel_18.dat",
+        "size_bytes": 9132858,
+        "sha256": "b887f08acb70a539ebd5eb51e4a531133e9428941f5b433c8c70f9597bda97ff",
+        "filesystem_mtime_utc": "2011-08-20T20:59:52+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_4/channel_17.dat",
+      "house": 4,
+      "archive_size_bytes": 9126351,
+      "archive_sha256": "68ac98dc9f9eb2b1942c16b8e9ad694607ef2cdb66674f8d123e686d290c363a",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_4/channel_17.dat",
+        "size_bytes": 9126351,
+        "sha256": "68ac98dc9f9eb2b1942c16b8e9ad694607ef2cdb66674f8d123e686d290c363a",
+        "filesystem_mtime_utc": "2011-08-20T20:59:47+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_4/channel_5.dat",
+      "house": 4,
+      "archive_size_bytes": 9211608,
+      "archive_sha256": "480c1b42d65ead20209a5a2327692195f5b1ba7fd2aea7deaa4075946fc544f5",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_4/channel_5.dat",
+        "size_bytes": 9211608,
+        "sha256": "480c1b42d65ead20209a5a2327692195f5b1ba7fd2aea7deaa4075946fc544f5",
+        "filesystem_mtime_utc": "2011-08-20T20:58:50+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_4/channel_9.dat",
+      "house": 4,
+      "archive_size_bytes": 9127404,
+      "archive_sha256": "a2b75a4cc3fba31dc1d1eaccf49f072c21b7165ab0086156b845762847bab40f",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_4/channel_9.dat",
+        "size_bytes": 9127404,
+        "sha256": "a2b75a4cc3fba31dc1d1eaccf49f072c21b7165ab0086156b845762847bab40f",
+        "filesystem_mtime_utc": "2011-08-20T20:59:08+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_4/channel_1.dat",
+      "house": 4,
+      "archive_size_bytes": 29363930,
+      "archive_sha256": "278579c90c93e897957a44511e94835d2eeefdd27185a5ca9b54cb0a7853047c",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_4/channel_1.dat",
+        "size_bytes": 29363930,
+        "sha256": "278579c90c93e897957a44511e94835d2eeefdd27185a5ca9b54cb0a7853047c",
+        "filesystem_mtime_utc": "2011-08-20T20:58:19+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_4/channel_7.dat",
+      "house": 4,
+      "archive_size_bytes": 9142074,
+      "archive_sha256": "7316c179fe19683d751967f7824cf5d6a26f27f5f88bf929fb41472eb35c6414",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_4/channel_7.dat",
+        "size_bytes": 9142074,
+        "sha256": "7316c179fe19683d751967f7824cf5d6a26f27f5f88bf929fb41472eb35c6414",
+        "filesystem_mtime_utc": "2011-08-20T20:58:59+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_4/channel_19.dat",
+      "house": 4,
+      "archive_size_bytes": 9183106,
+      "archive_sha256": "ed2a32ff7ee050ad8bfff8f0591c344b76fd93d1a3f9738ee61c2eb20c77d9b7",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_4/channel_19.dat",
+        "size_bytes": 9183106,
+        "sha256": "ed2a32ff7ee050ad8bfff8f0591c344b76fd93d1a3f9738ee61c2eb20c77d9b7",
+        "filesystem_mtime_utc": "2011-08-20T20:59:59+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_4/channel_4.dat",
+      "house": 4,
+      "archive_size_bytes": 9777828,
+      "archive_sha256": "3f8c08a5cc5c94c9946a7e331b65e00280e40bf6bf90834479ce9470e1971cee",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_4/channel_4.dat",
+        "size_bytes": 9777828,
+        "sha256": "3f8c08a5cc5c94c9946a7e331b65e00280e40bf6bf90834479ce9470e1971cee",
+        "filesystem_mtime_utc": "2011-08-20T20:58:45+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_4/channel_3.dat",
+      "house": 4,
+      "archive_size_bytes": 9283876,
+      "archive_sha256": "f4886a1b18bbe871cfc8e10b16c21dfddc3769575a90f3e7c4dc01bd426f138f",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_4/channel_3.dat",
+        "size_bytes": 9283876,
+        "sha256": "f4886a1b18bbe871cfc8e10b16c21dfddc3769575a90f3e7c4dc01bd426f138f",
+        "filesystem_mtime_utc": "2011-08-20T20:58:40+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_4/channel_10.dat",
+      "house": 4,
+      "archive_size_bytes": 9126773,
+      "archive_sha256": "b9a392366d8a73a836a4610e4ff861f51e8c445de4f95b358d5d81fb0806a40a",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_4/channel_10.dat",
+        "size_bytes": 9126773,
+        "sha256": "b9a392366d8a73a836a4610e4ff861f51e8c445de4f95b358d5d81fb0806a40a",
+        "filesystem_mtime_utc": "2011-08-20T20:59:13+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_4/channel_2.dat",
+      "house": 4,
+      "archive_size_bytes": 29440408,
+      "archive_sha256": "8433d41b8a70d08144e6ff93f76c825d5a6080b8035e22c5aeb516e2b4c70167",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_4/channel_2.dat",
+        "size_bytes": 29440408,
+        "sha256": "8433d41b8a70d08144e6ff93f76c825d5a6080b8035e22c5aeb516e2b4c70167",
+        "filesystem_mtime_utc": "2011-08-20T20:58:35+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_4/channel_14.dat",
+      "house": 4,
+      "archive_size_bytes": 9584616,
+      "archive_sha256": "46389276d852c8854f36429983f410e286ca9304b4e82a57ec2c58ee991b5408",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_4/channel_14.dat",
+        "size_bytes": 9584616,
+        "sha256": "46389276d852c8854f36429983f410e286ca9304b4e82a57ec2c58ee991b5408",
+        "filesystem_mtime_utc": "2011-08-20T20:59:32+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_4/channel_12.dat",
+      "house": 4,
+      "archive_size_bytes": 9125813,
+      "archive_sha256": "19410c95d1ddf27846329560a7b3b9a7978f536c5bf18142e39972d764ba3612",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_4/channel_12.dat",
+        "size_bytes": 9125813,
+        "sha256": "19410c95d1ddf27846329560a7b3b9a7978f536c5bf18142e39972d764ba3612",
+        "filesystem_mtime_utc": "2011-08-20T20:59:22+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_4/channel_6.dat",
+      "house": 4,
+      "archive_size_bytes": 9125848,
+      "archive_sha256": "07c7803ec5b1d83d7c5423dbc1115dea46030f116025306aa9915b0d7ab3d5a1",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_4/channel_6.dat",
+        "size_bytes": 9125848,
+        "sha256": "07c7803ec5b1d83d7c5423dbc1115dea46030f116025306aa9915b0d7ab3d5a1",
+        "filesystem_mtime_utc": "2011-08-20T20:58:54+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_4/channel_15.dat",
+      "house": 4,
+      "archive_size_bytes": 9137776,
+      "archive_sha256": "9ce7c7fe3d88ac9e63034735ffe78e04809b43e5907756e946b3cc471c0c8986",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_4/channel_15.dat",
+        "size_bytes": 9137776,
+        "sha256": "9ce7c7fe3d88ac9e63034735ffe78e04809b43e5907756e946b3cc471c0c8986",
+        "filesystem_mtime_utc": "2011-08-20T20:59:37+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_4/channel_11.dat",
+      "house": 4,
+      "archive_size_bytes": 9125815,
+      "archive_sha256": "bd26a898aa4251b1f9568c635478ef152a49b9d6757a990b2ad392e3a0755d12",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_4/channel_11.dat",
+        "size_bytes": 9125815,
+        "sha256": "bd26a898aa4251b1f9568c635478ef152a49b9d6757a990b2ad392e3a0755d12",
+        "filesystem_mtime_utc": "2011-08-20T20:59:18+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_4/channel_8.dat",
+      "house": 4,
+      "archive_size_bytes": 9133238,
+      "archive_sha256": "269fac37b81c81d06ac186156e312c7b92f55afe4cb112c0fcd8766aae7e2f47",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_4/channel_8.dat",
+        "size_bytes": 9133238,
+        "sha256": "269fac37b81c81d06ac186156e312c7b92f55afe4cb112c0fcd8766aae7e2f47",
+        "filesystem_mtime_utc": "2011-08-20T20:59:04+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_1/channel_16.dat",
+      "house": 1,
+      "archive_size_bytes": 11937946,
+      "archive_sha256": "65c6d5d2a4b7719c5e530ef042640822eeced5b31201517424296e26ce4541f4",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_1/channel_16.dat",
+        "size_bytes": 11937946,
+        "sha256": "65c6d5d2a4b7719c5e530ef042640822eeced5b31201517424296e26ce4541f4",
+        "filesystem_mtime_utc": "2011-08-20T20:55:49+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_1/labels.dat",
+      "house": 1,
+      "archive_size_bytes": 269,
+      "archive_sha256": "05f3b58b43efcc1a34dceef4ae87c572184be9d581e359b6644d101687a5862e",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_1/labels.dat",
+        "size_bytes": 269,
+        "sha256": "05f3b58b43efcc1a34dceef4ae87c572184be9d581e359b6644d101687a5862e",
+        "filesystem_mtime_utc": "2011-08-20T20:56:21+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_1/channel_13.dat",
+      "house": 1,
+      "archive_size_bytes": 11936699,
+      "archive_sha256": "05fddf02fafa638b293add075754740ad1bcdd697a742dfbcecffd57845c3397",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_1/channel_13.dat",
+        "size_bytes": 11936699,
+        "sha256": "05fddf02fafa638b293add075754740ad1bcdd697a742dfbcecffd57845c3397",
+        "filesystem_mtime_utc": "2011-08-20T20:55:28+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_1/channel_20.dat",
+      "house": 1,
+      "archive_size_bytes": 11963924,
+      "archive_sha256": "b4af437f6b0a2c317a5f7709699981aa2cf68e3e9f7770e0bd4863cba6279f80",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_1/channel_20.dat",
+        "size_bytes": 11963924,
+        "sha256": "b4af437f6b0a2c317a5f7709699981aa2cf68e3e9f7770e0bd4863cba6279f80",
+        "filesystem_mtime_utc": "2011-08-20T20:56:21+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_1/channel_18.dat",
+      "house": 1,
+      "archive_size_bytes": 12132613,
+      "archive_sha256": "1803b0396c22f121ab072653dd65a0a672ab29d0b47c189c61077f01a67e68b8",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_1/channel_18.dat",
+        "size_bytes": 12132613,
+        "sha256": "1803b0396c22f121ab072653dd65a0a672ab29d0b47c189c61077f01a67e68b8",
+        "filesystem_mtime_utc": "2011-08-20T20:56:07+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_1/channel_17.dat",
+      "house": 1,
+      "archive_size_bytes": 12200472,
+      "archive_sha256": "68b3bd4009093fbb94fe304eef0210f93f98d7ae351801f01e7c9eefa1759583",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_1/channel_17.dat",
+        "size_bytes": 12200472,
+        "sha256": "68b3bd4009093fbb94fe304eef0210f93f98d7ae351801f01e7c9eefa1759583",
+        "filesystem_mtime_utc": "2011-08-20T20:55:56+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_1/channel_5.dat",
+      "house": 1,
+      "archive_size_bytes": 12320327,
+      "archive_sha256": "3e3065b2ce4b7aab6ddcc21c0a7d08b000fb151952de70a95c153b37ddc86e73",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_1/channel_5.dat",
+        "size_bytes": 12320327,
+        "sha256": "3e3065b2ce4b7aab6ddcc21c0a7d08b000fb151952de70a95c153b37ddc86e73",
+        "filesystem_mtime_utc": "2011-08-20T20:54:32+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_1/channel_9.dat",
+      "house": 1,
+      "archive_size_bytes": 12346760,
+      "archive_sha256": "2f91b6814eb4796b4e998efc9665ecb56ae7c81fdf5531f5d3ec155988fea68d",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_1/channel_9.dat",
+        "size_bytes": 12346760,
+        "sha256": "2f91b6814eb4796b4e998efc9665ecb56ae7c81fdf5531f5d3ec155988fea68d",
+        "filesystem_mtime_utc": "2011-08-20T20:54:59+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_1/channel_1.dat",
+      "house": 1,
+      "archive_size_bytes": 27690088,
+      "archive_sha256": "61f67410a88f8d7f07fe79045941e7b32f4194dab0e8d52988616f3f23ba37f9",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_1/channel_1.dat",
+        "size_bytes": 27690088,
+        "sha256": "61f67410a88f8d7f07fe79045941e7b32f4194dab0e8d52988616f3f23ba37f9",
+        "filesystem_mtime_utc": "2011-08-20T20:53:56+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_1/channel_7.dat",
+      "house": 1,
+      "archive_size_bytes": 12679922,
+      "archive_sha256": "84f98c52d6f53d69ebfddf260d6bb0a9fb134b08d91e1b27d21efc11e9c815ac",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_1/channel_7.dat",
+        "size_bytes": 12679922,
+        "sha256": "84f98c52d6f53d69ebfddf260d6bb0a9fb134b08d91e1b27d21efc11e9c815ac",
+        "filesystem_mtime_utc": "2011-08-20T20:54:46+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_1/channel_19.dat",
+      "house": 1,
+      "archive_size_bytes": 11934051,
+      "archive_sha256": "dbc45e3cea6c9b08226145c0dcff163c2ccac0d9ce7f221c0a96acc0904b837b",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_1/channel_19.dat",
+        "size_bytes": 11934051,
+        "sha256": "dbc45e3cea6c9b08226145c0dcff163c2ccac0d9ce7f221c0a96acc0904b837b",
+        "filesystem_mtime_utc": "2011-08-20T20:56:14+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_1/channel_4.dat",
+      "house": 1,
+      "archive_size_bytes": 11942563,
+      "archive_sha256": "cc5f7b226fda9f3897c2c3988ee8dcda2c15d74a11a410b80fb2d3bbedf51e89",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_1/channel_4.dat",
+        "size_bytes": 11942563,
+        "sha256": "cc5f7b226fda9f3897c2c3988ee8dcda2c15d74a11a410b80fb2d3bbedf51e89",
+        "filesystem_mtime_utc": "2011-08-20T20:54:25+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_1/channel_3.dat",
+      "house": 1,
+      "archive_size_bytes": 11943069,
+      "archive_sha256": "a768f3a6db511a04f07cd0524c2f4620f543fb4c60eca4f4f9467a1c98facd79",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_1/channel_3.dat",
+        "size_bytes": 11943069,
+        "sha256": "a768f3a6db511a04f07cd0524c2f4620f543fb4c60eca4f4f9467a1c98facd79",
+        "filesystem_mtime_utc": "2011-08-20T20:54:18+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_1/channel_10.dat",
+      "house": 1,
+      "archive_size_bytes": 11948363,
+      "archive_sha256": "37fc7b0f357622eb7cd1d247ffaf23593ead4c5205367d5eee4089ec7b8a41e5",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_1/channel_10.dat",
+        "size_bytes": 11948363,
+        "sha256": "37fc7b0f357622eb7cd1d247ffaf23593ead4c5205367d5eee4089ec7b8a41e5",
+        "filesystem_mtime_utc": "2011-08-20T20:55:06+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_1/channel_2.dat",
+      "house": 1,
+      "archive_size_bytes": 27090157,
+      "archive_sha256": "401a07b106f29d6d66eb6486d926ccc333cf0af2711e4dc71653fed42722f06a",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_1/channel_2.dat",
+        "size_bytes": 27090157,
+        "sha256": "401a07b106f29d6d66eb6486d926ccc333cf0af2711e4dc71653fed42722f06a",
+        "filesystem_mtime_utc": "2011-08-20T20:54:11+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_1/channel_14.dat",
+      "house": 1,
+      "archive_size_bytes": 11934817,
+      "archive_sha256": "23257273c779e4f4eb0e91c26fbdfa1c5aef9ddeb168dc657b07f01d7b2b3dd4",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_1/channel_14.dat",
+        "size_bytes": 11934817,
+        "sha256": "23257273c779e4f4eb0e91c26fbdfa1c5aef9ddeb168dc657b07f01d7b2b3dd4",
+        "filesystem_mtime_utc": "2011-08-20T20:55:35+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_1/channel_12.dat",
+      "house": 1,
+      "archive_size_bytes": 11949567,
+      "archive_sha256": "97995d3ca04fd3e5c54a5490db6887c2904483314a7e4b23af731844bdffaa80",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_1/channel_12.dat",
+        "size_bytes": 11949567,
+        "sha256": "97995d3ca04fd3e5c54a5490db6887c2904483314a7e4b23af731844bdffaa80",
+        "filesystem_mtime_utc": "2011-08-20T20:55:20+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_1/channel_6.dat",
+      "house": 1,
+      "archive_size_bytes": 12002162,
+      "archive_sha256": "a732b1675e4f8055eb487f993c490415944227bfa917f7f6b35b944a85d1f2ad",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_1/channel_6.dat",
+        "size_bytes": 12002162,
+        "sha256": "a732b1675e4f8055eb487f993c490415944227bfa917f7f6b35b944a85d1f2ad",
+        "filesystem_mtime_utc": "2011-08-20T20:54:39+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_1/channel_15.dat",
+      "house": 1,
+      "archive_size_bytes": 11943462,
+      "archive_sha256": "96f74b82418fc8c30c21ba4b74d80fdd700875df2ad61a81ba6e209e3b1a2f81",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_1/channel_15.dat",
+        "size_bytes": 11943462,
+        "sha256": "96f74b82418fc8c30c21ba4b74d80fdd700875df2ad61a81ba6e209e3b1a2f81",
+        "filesystem_mtime_utc": "2011-08-20T20:55:42+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_1/channel_11.dat",
+      "house": 1,
+      "archive_size_bytes": 11962371,
+      "archive_sha256": "5faacf770170a25bac67f610f8fd4ca2ab5bedf8020d1e24e454c8b21cf59902",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_1/channel_11.dat",
+        "size_bytes": 11962371,
+        "sha256": "5faacf770170a25bac67f610f8fd4ca2ab5bedf8020d1e24e454c8b21cf59902",
+        "filesystem_mtime_utc": "2011-08-20T20:55:13+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_1/channel_8.dat",
+      "house": 1,
+      "archive_size_bytes": 12686384,
+      "archive_sha256": "fa2935d311a027176d49beb3f04f725ea0f1fc0818d4c454e5c4e589bea9e6b0",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_1/channel_8.dat",
+        "size_bytes": 12686384,
+        "sha256": "fa2935d311a027176d49beb3f04f725ea0f1fc0818d4c454e5c4e589bea9e6b0",
+        "filesystem_mtime_utc": "2011-08-20T20:54:53+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_3/channel_16.dat",
+      "house": 3,
+      "archive_size_bytes": 6471304,
+      "archive_sha256": "3246f44c1f82bb5c6e1b34f9c5d0b7e1ca9c85acb8efac4311dd5fc8491c3c39",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_3/channel_16.dat",
+        "size_bytes": 6471304,
+        "sha256": "3246f44c1f82bb5c6e1b34f9c5d0b7e1ca9c85acb8efac4311dd5fc8491c3c39",
+        "filesystem_mtime_utc": "2011-08-20T20:52:45+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_3/labels.dat",
+      "house": 3,
+      "archive_size_bytes": 308,
+      "archive_sha256": "aac07003ff9bc784b32628333211a8cc3297bebf7d6c425824213229e7254873",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_3/labels.dat",
+        "size_bytes": 308,
+        "sha256": "aac07003ff9bc784b32628333211a8cc3297bebf7d6c425824213229e7254873",
+        "filesystem_mtime_utc": "2011-08-20T20:53:08+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_3/channel_13.dat",
+      "house": 3,
+      "archive_size_bytes": 6483814,
+      "archive_sha256": "1d012c5a85119372076132321d3584d1a6009abfec8827d8876986736d09e91d",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_3/channel_13.dat",
+        "size_bytes": 6483814,
+        "sha256": "1d012c5a85119372076132321d3584d1a6009abfec8827d8876986736d09e91d",
+        "filesystem_mtime_utc": "2011-08-20T20:52:33+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_3/channel_21.dat",
+      "house": 3,
+      "archive_size_bytes": 6522810,
+      "archive_sha256": "c684620f4846b231c556a175d5d22cd592a4918f5461fa2e7feee909049bae74",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_3/channel_21.dat",
+        "size_bytes": 6522810,
+        "sha256": "c684620f4846b231c556a175d5d22cd592a4918f5461fa2e7feee909049bae74",
+        "filesystem_mtime_utc": "2011-08-20T20:53:04+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_3/channel_20.dat",
+      "house": 3,
+      "archive_size_bytes": 6484876,
+      "archive_sha256": "1a2af5152c1d3973fda8eca28b98ff0060c61138c5b5e9db2b9959c83f4a2ffd",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_3/channel_20.dat",
+        "size_bytes": 6484876,
+        "sha256": "1a2af5152c1d3973fda8eca28b98ff0060c61138c5b5e9db2b9959c83f4a2ffd",
+        "filesystem_mtime_utc": "2011-08-20T20:53:00+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_3/channel_18.dat",
+      "house": 3,
+      "archive_size_bytes": 6466041,
+      "archive_sha256": "74d306ec03d9d2759a20d089be7cf3ad9e5c7047f2a8840f3159b9031e08648f",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_3/channel_18.dat",
+        "size_bytes": 6466041,
+        "sha256": "74d306ec03d9d2759a20d089be7cf3ad9e5c7047f2a8840f3159b9031e08648f",
+        "filesystem_mtime_utc": "2011-08-20T20:52:52+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_3/channel_17.dat",
+      "house": 3,
+      "archive_size_bytes": 6679559,
+      "archive_sha256": "bf5fbe5260e101facd1c86b103eb1808c0892537a27edfe47f08653e6e2265c4",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_3/channel_17.dat",
+        "size_bytes": 6679559,
+        "sha256": "bf5fbe5260e101facd1c86b103eb1808c0892537a27edfe47f08653e6e2265c4",
+        "filesystem_mtime_utc": "2011-08-20T20:52:49+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_3/channel_5.dat",
+      "house": 3,
+      "archive_size_bytes": 6466269,
+      "archive_sha256": "8c3dc0c9b19eb0d7d43930eb147e58b221a7ed782a25abf8963820ef128424f5",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_3/channel_5.dat",
+        "size_bytes": 6466269,
+        "sha256": "8c3dc0c9b19eb0d7d43930eb147e58b221a7ed782a25abf8963820ef128424f5",
+        "filesystem_mtime_utc": "2011-08-20T20:52:02+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_3/channel_9.dat",
+      "house": 3,
+      "archive_size_bytes": 6474727,
+      "archive_sha256": "28b3cf3e3a5a4c0f7fda4bce31f83e47a466364c22b923207e79b19bf32ec74c",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_3/channel_9.dat",
+        "size_bytes": 6474727,
+        "sha256": "28b3cf3e3a5a4c0f7fda4bce31f83e47a466364c22b923207e79b19bf32ec74c",
+        "filesystem_mtime_utc": "2011-08-20T20:52:17+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_3/channel_22.dat",
+      "house": 3,
+      "archive_size_bytes": 6496969,
+      "archive_sha256": "a3acc902d2d4bea4ef9664841aebbbd7dda6e2d163c5b704f759872cdaf066cd",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_3/channel_22.dat",
+        "size_bytes": 6496969,
+        "sha256": "a3acc902d2d4bea4ef9664841aebbbd7dda6e2d163c5b704f759872cdaf066cd",
+        "filesystem_mtime_utc": "2011-08-20T20:53:08+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_3/channel_1.dat",
+      "house": 3,
+      "archive_size_bytes": 25658419,
+      "archive_sha256": "44395345a7b827bf8c8f9c7712ddeecce9c814879fcc53fe5e27e79b6c42761e",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_3/channel_1.dat",
+        "size_bytes": 25658419,
+        "sha256": "44395345a7b827bf8c8f9c7712ddeecce9c814879fcc53fe5e27e79b6c42761e",
+        "filesystem_mtime_utc": "2011-08-20T20:51:36+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_3/channel_7.dat",
+      "house": 3,
+      "archive_size_bytes": 6764938,
+      "archive_sha256": "84170b5f0652919bda727f9e99b1f0380d0a641d62ead1d1e3c966762d830b0c",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_3/channel_7.dat",
+        "size_bytes": 6764938,
+        "sha256": "84170b5f0652919bda727f9e99b1f0380d0a641d62ead1d1e3c966762d830b0c",
+        "filesystem_mtime_utc": "2011-08-20T20:52:10+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_3/channel_19.dat",
+      "house": 3,
+      "archive_size_bytes": 6580614,
+      "archive_sha256": "d1a13cf074fbf200f92b94cf62024b33500cd93da641471b194679b2c3552643",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_3/channel_19.dat",
+        "size_bytes": 6580614,
+        "sha256": "d1a13cf074fbf200f92b94cf62024b33500cd93da641471b194679b2c3552643",
+        "filesystem_mtime_utc": "2011-08-20T20:52:56+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_3/channel_4.dat",
+      "house": 3,
+      "archive_size_bytes": 6465724,
+      "archive_sha256": "1f9f0633f380edd1f0d6b3c833fe14ab34f2c4fd9775c90ec989e5cb34af9847",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_3/channel_4.dat",
+        "size_bytes": 6465724,
+        "sha256": "1f9f0633f380edd1f0d6b3c833fe14ab34f2c4fd9775c90ec989e5cb34af9847",
+        "filesystem_mtime_utc": "2011-08-20T20:51:58+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_3/channel_3.dat",
+      "house": 3,
+      "archive_size_bytes": 6477040,
+      "archive_sha256": "a92a82e58ee0cfc39228e4c2d6be5d80a95720d8dee097a439c367b5a4f115aa",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_3/channel_3.dat",
+        "size_bytes": 6477040,
+        "sha256": "a92a82e58ee0cfc39228e4c2d6be5d80a95720d8dee097a439c367b5a4f115aa",
+        "filesystem_mtime_utc": "2011-08-20T20:51:54+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_3/channel_10.dat",
+      "house": 3,
+      "archive_size_bytes": 6478435,
+      "archive_sha256": "67c06e6c14d68476f8ae1eee9f14912e9f5875177e296fb71e0af8060f2c3985",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_3/channel_10.dat",
+        "size_bytes": 6478435,
+        "sha256": "67c06e6c14d68476f8ae1eee9f14912e9f5875177e296fb71e0af8060f2c3985",
+        "filesystem_mtime_utc": "2011-08-20T20:52:21+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_3/channel_2.dat",
+      "house": 3,
+      "archive_size_bytes": 25091679,
+      "archive_sha256": "3850bb9c802de2bfb9f6d80c14084729acae8567b78c14a020793f91359606e9",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_3/channel_2.dat",
+        "size_bytes": 25091679,
+        "sha256": "3850bb9c802de2bfb9f6d80c14084729acae8567b78c14a020793f91359606e9",
+        "filesystem_mtime_utc": "2011-08-20T20:51:50+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_3/channel_14.dat",
+      "house": 3,
+      "archive_size_bytes": 6504204,
+      "archive_sha256": "56ae081b972045cde91f69860586180d0b9ae285b54da4f343ea680f8d30c70e",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_3/channel_14.dat",
+        "size_bytes": 6504204,
+        "sha256": "56ae081b972045cde91f69860586180d0b9ae285b54da4f343ea680f8d30c70e",
+        "filesystem_mtime_utc": "2011-08-20T20:52:37+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_3/channel_12.dat",
+      "house": 3,
+      "archive_size_bytes": 6506716,
+      "archive_sha256": "078bc06a7c398856bd838950918e372994c83c992b48661196ffe6d735a708c8",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_3/channel_12.dat",
+        "size_bytes": 6506716,
+        "sha256": "078bc06a7c398856bd838950918e372994c83c992b48661196ffe6d735a708c8",
+        "filesystem_mtime_utc": "2011-08-20T20:52:29+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_3/channel_6.dat",
+      "house": 3,
+      "archive_size_bytes": 7005720,
+      "archive_sha256": "82601c9e91a57efbc6b5764e8758fd6f8ba82a4dd9276a1b3579827174111d0a",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_3/channel_6.dat",
+        "size_bytes": 7005720,
+        "sha256": "82601c9e91a57efbc6b5764e8758fd6f8ba82a4dd9276a1b3579827174111d0a",
+        "filesystem_mtime_utc": "2011-08-20T20:52:06+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_3/channel_15.dat",
+      "house": 3,
+      "archive_size_bytes": 6465717,
+      "archive_sha256": "30fe276b7a6bcabf3b5e9ad6c298ff0c59bc60a7b4d58dd7c2483eb121c7784a",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_3/channel_15.dat",
+        "size_bytes": 6465717,
+        "sha256": "30fe276b7a6bcabf3b5e9ad6c298ff0c59bc60a7b4d58dd7c2483eb121c7784a",
+        "filesystem_mtime_utc": "2011-08-20T20:52:41+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_3/channel_11.dat",
+      "house": 3,
+      "archive_size_bytes": 6659144,
+      "archive_sha256": "1da98197796413ea4ed9c5271c474d4e43fd73f7f788847b810c4ab48a4315fb",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_3/channel_11.dat",
+        "size_bytes": 6659144,
+        "sha256": "1da98197796413ea4ed9c5271c474d4e43fd73f7f788847b810c4ab48a4315fb",
+        "filesystem_mtime_utc": "2011-08-20T20:52:25+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_3/channel_8.dat",
+      "house": 3,
+      "archive_size_bytes": 6465777,
+      "archive_sha256": "e7120f716bbc02086f6659097023dd38254dd152ea79662239286d3453508103",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_3/channel_8.dat",
+        "size_bytes": 6465777,
+        "sha256": "e7120f716bbc02086f6659097023dd38254dd152ea79662239286d3453508103",
+        "filesystem_mtime_utc": "2011-08-20T20:52:13+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_5/channel_16.dat",
+      "house": 5,
+      "archive_size_bytes": 1287045,
+      "archive_sha256": "376f024b7b9c637f1e1702cc9e56b03d39a38e9e4e19035299b67a094bf65168",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_5/channel_16.dat",
+        "size_bytes": 1287045,
+        "sha256": "376f024b7b9c637f1e1702cc9e56b03d39a38e9e4e19035299b67a094bf65168",
+        "filesystem_mtime_utc": "2011-08-20T20:57:00+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_5/labels.dat",
+      "house": 5,
+      "archive_size_bytes": 369,
+      "archive_sha256": "01783506cff61cbe82f260d7a20932b6f72ecb44e1cbbe3818cb4d501d304ff9",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_5/labels.dat",
+        "size_bytes": 369,
+        "sha256": "01783506cff61cbe82f260d7a20932b6f72ecb44e1cbbe3818cb4d501d304ff9",
+        "filesystem_mtime_utc": "2011-08-20T20:57:12+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_5/channel_13.dat",
+      "house": 5,
+      "archive_size_bytes": 1292221,
+      "archive_sha256": "bc1e767886780fc1d13906998abcda8a00bc03bbad1f6b8a6b45edb18e4f0700",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_5/channel_13.dat",
+        "size_bytes": 1292221,
+        "sha256": "bc1e767886780fc1d13906998abcda8a00bc03bbad1f6b8a6b45edb18e4f0700",
+        "filesystem_mtime_utc": "2011-08-20T20:56:57+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_5/channel_21.dat",
+      "house": 5,
+      "archive_size_bytes": 1286674,
+      "archive_sha256": "fb7c0dd6c1a4916055e5ae6080a9842d8a13d00ed79836379f9aa496695872ab",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_5/channel_21.dat",
+        "size_bytes": 1286674,
+        "sha256": "fb7c0dd6c1a4916055e5ae6080a9842d8a13d00ed79836379f9aa496695872ab",
+        "filesystem_mtime_utc": "2011-08-20T20:57:06+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_5/channel_20.dat",
+      "house": 5,
+      "archive_size_bytes": 1288981,
+      "archive_sha256": "19490145f9d5daaef68f3f32dbfae1550f3f0d9a8d2257d509df3caacc999054",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_5/channel_20.dat",
+        "size_bytes": 1288981,
+        "sha256": "19490145f9d5daaef68f3f32dbfae1550f3f0d9a8d2257d509df3caacc999054",
+        "filesystem_mtime_utc": "2011-08-20T20:57:05+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_5/channel_24.dat",
+      "house": 5,
+      "archive_size_bytes": 1287677,
+      "archive_sha256": "d2f823d382492994c873ccd5fca133322dfb46bfdd736644372469d5fd99f65c",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_5/channel_24.dat",
+        "size_bytes": 1287677,
+        "sha256": "d2f823d382492994c873ccd5fca133322dfb46bfdd736644372469d5fd99f65c",
+        "filesystem_mtime_utc": "2011-08-20T20:57:10+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_5/channel_18.dat",
+      "house": 5,
+      "archive_size_bytes": 1351048,
+      "archive_sha256": "f83076587ece487179d6ac9655ed56184af3d34dbc78f8065dd30c8174c14da1",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_5/channel_18.dat",
+        "size_bytes": 1351048,
+        "sha256": "f83076587ece487179d6ac9655ed56184af3d34dbc78f8065dd30c8174c14da1",
+        "filesystem_mtime_utc": "2011-08-20T20:57:02+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_5/channel_17.dat",
+      "house": 5,
+      "archive_size_bytes": 1287437,
+      "archive_sha256": "dbca292f3a248f3162c5b88d746f2d9bf7a567cda4e520d250fa9f82088c515d",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_5/channel_17.dat",
+        "size_bytes": 1287437,
+        "sha256": "dbca292f3a248f3162c5b88d746f2d9bf7a567cda4e520d250fa9f82088c515d",
+        "filesystem_mtime_utc": "2011-08-20T20:57:01+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_5/channel_5.dat",
+      "house": 5,
+      "archive_size_bytes": 1296304,
+      "archive_sha256": "789fc55f1ea2c46de947e3977ff31105ce02825fd182624d1e8bd6cb7dcd7620",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_5/channel_5.dat",
+        "size_bytes": 1296304,
+        "sha256": "789fc55f1ea2c46de947e3977ff31105ce02825fd182624d1e8bd6cb7dcd7620",
+        "filesystem_mtime_utc": "2011-08-20T20:56:47+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_5/channel_9.dat",
+      "house": 5,
+      "archive_size_bytes": 1286675,
+      "archive_sha256": "a3a2beb48b59613a4cbea9425c4fa3c3843a121b3ddd8c75d1e81270d0a24843",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_5/channel_9.dat",
+        "size_bytes": 1286675,
+        "sha256": "a3a2beb48b59613a4cbea9425c4fa3c3843a121b3ddd8c75d1e81270d0a24843",
+        "filesystem_mtime_utc": "2011-08-20T20:56:52+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_5/channel_22.dat",
+      "house": 5,
+      "archive_size_bytes": 1311475,
+      "archive_sha256": "1ae8d6ccceccf4dfb0395e72048de02797130df9e86729169680b7399b689023",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_5/channel_22.dat",
+        "size_bytes": 1311475,
+        "sha256": "1ae8d6ccceccf4dfb0395e72048de02797130df9e86729169680b7399b689023",
+        "filesystem_mtime_utc": "2011-08-20T20:57:07+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_5/channel_1.dat",
+      "house": 5,
+      "archive_size_bytes": 5463607,
+      "archive_sha256": "15285405e2b7637639f5ace07d31d844af1eb0914bc2231d75ab8767b965cbf5",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_5/channel_1.dat",
+        "size_bytes": 5463607,
+        "sha256": "15285405e2b7637639f5ace07d31d844af1eb0914bc2231d75ab8767b965cbf5",
+        "filesystem_mtime_utc": "2011-08-20T20:56:41+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_5/channel_23.dat",
+      "house": 5,
+      "archive_size_bytes": 1378373,
+      "archive_sha256": "7d1523859947264cf1c07e7911e9a01d14a2262fc5f57e57f1e8ec6dccccdb3e",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_5/channel_23.dat",
+        "size_bytes": 1378373,
+        "sha256": "7d1523859947264cf1c07e7911e9a01d14a2262fc5f57e57f1e8ec6dccccdb3e",
+        "filesystem_mtime_utc": "2011-08-20T20:57:08+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_5/channel_7.dat",
+      "house": 5,
+      "archive_size_bytes": 1286680,
+      "archive_sha256": "52bbdaa069206f025d814ccc8e2a4f6fd11a073ed112114b16207aa11227f939",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_5/channel_7.dat",
+        "size_bytes": 1286680,
+        "sha256": "52bbdaa069206f025d814ccc8e2a4f6fd11a073ed112114b16207aa11227f939",
+        "filesystem_mtime_utc": "2011-08-20T20:56:50+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_5/channel_19.dat",
+      "house": 5,
+      "archive_size_bytes": 1308691,
+      "archive_sha256": "54225ef0ca21ab14a39c610e26caa69a286b76bd75343f5e5a0f07649a40477e",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_5/channel_19.dat",
+        "size_bytes": 1308691,
+        "sha256": "54225ef0ca21ab14a39c610e26caa69a286b76bd75343f5e5a0f07649a40477e",
+        "filesystem_mtime_utc": "2011-08-20T20:57:04+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_5/channel_4.dat",
+      "house": 5,
+      "archive_size_bytes": 1286672,
+      "archive_sha256": "bb13c9ca148cca69e299ca705f91e40ecd22df559c1e0ccb913cc63191eccbd8",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_5/channel_4.dat",
+        "size_bytes": 1286672,
+        "sha256": "bb13c9ca148cca69e299ca705f91e40ecd22df559c1e0ccb913cc63191eccbd8",
+        "filesystem_mtime_utc": "2011-08-20T20:56:46+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_5/channel_3.dat",
+      "house": 5,
+      "archive_size_bytes": 1291478,
+      "archive_sha256": "9a781adb56e35191e73891d49fe1c24527a76609dca13817e20fef88cde2afd9",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_5/channel_3.dat",
+        "size_bytes": 1291478,
+        "sha256": "9a781adb56e35191e73891d49fe1c24527a76609dca13817e20fef88cde2afd9",
+        "filesystem_mtime_utc": "2011-08-20T20:56:45+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_5/channel_26.dat",
+      "house": 5,
+      "archive_size_bytes": 1286676,
+      "archive_sha256": "da1917ddde607366d2428c5b79f61527f38ed62955fea0765792c77c321003af",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_5/channel_26.dat",
+        "size_bytes": 1286676,
+        "sha256": "da1917ddde607366d2428c5b79f61527f38ed62955fea0765792c77c321003af",
+        "filesystem_mtime_utc": "2011-08-20T20:57:12+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_5/channel_10.dat",
+      "house": 5,
+      "archive_size_bytes": 1371730,
+      "archive_sha256": "89742fcc576ce44dd6eebe15a5447515c38fbadf4600fe07e7b577b94b7bdee7",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_5/channel_10.dat",
+        "size_bytes": 1371730,
+        "sha256": "89742fcc576ce44dd6eebe15a5447515c38fbadf4600fe07e7b577b94b7bdee7",
+        "filesystem_mtime_utc": "2011-08-20T20:56:53+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_5/channel_2.dat",
+      "house": 5,
+      "archive_size_bytes": 5341274,
+      "archive_sha256": "b0bdc1a12547d7d38faedaddfa1930e38543264fcd549f7945f570161c33cc22",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_5/channel_2.dat",
+        "size_bytes": 5341274,
+        "sha256": "b0bdc1a12547d7d38faedaddfa1930e38543264fcd549f7945f570161c33cc22",
+        "filesystem_mtime_utc": "2011-08-20T20:56:44+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_5/channel_14.dat",
+      "house": 5,
+      "archive_size_bytes": 1286673,
+      "archive_sha256": "83c21650ff6450e472962038f66767a15a1fc96baa7b61cab7ec5ffd4f99e222",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_5/channel_14.dat",
+        "size_bytes": 1286673,
+        "sha256": "83c21650ff6450e472962038f66767a15a1fc96baa7b61cab7ec5ffd4f99e222",
+        "filesystem_mtime_utc": "2011-08-20T20:56:58+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_5/channel_12.dat",
+      "house": 5,
+      "archive_size_bytes": 1292225,
+      "archive_sha256": "aa53983e7b64f42afb3b0e717a45767c2f7d2f70be1dfe46b574c8c47ff304c5",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_5/channel_12.dat",
+        "size_bytes": 1292225,
+        "sha256": "aa53983e7b64f42afb3b0e717a45767c2f7d2f70be1dfe46b574c8c47ff304c5",
+        "filesystem_mtime_utc": "2011-08-20T20:56:56+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_5/channel_6.dat",
+      "house": 5,
+      "archive_size_bytes": 1299721,
+      "archive_sha256": "60aa5d37b69cfc3e4479206d2ebc47db37488340adfca954d77b505e0e127be1",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_5/channel_6.dat",
+        "size_bytes": 1299721,
+        "sha256": "60aa5d37b69cfc3e4479206d2ebc47db37488340adfca954d77b505e0e127be1",
+        "filesystem_mtime_utc": "2011-08-20T20:56:48+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_5/channel_25.dat",
+      "house": 5,
+      "archive_size_bytes": 1286676,
+      "archive_sha256": "0c6879abeca038427961cc34311f044469a7666037912d28f6e3c003302ab7a5",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_5/channel_25.dat",
+        "size_bytes": 1286676,
+        "sha256": "0c6879abeca038427961cc34311f044469a7666037912d28f6e3c003302ab7a5",
+        "filesystem_mtime_utc": "2011-08-20T20:57:11+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_5/channel_15.dat",
+      "house": 5,
+      "archive_size_bytes": 1286673,
+      "archive_sha256": "3b8642bb72216530c640f9f37014e1e15250f0a7272e544f992816ba056db654",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_5/channel_15.dat",
+        "size_bytes": 1286673,
+        "sha256": "3b8642bb72216530c640f9f37014e1e15250f0a7272e544f992816ba056db654",
+        "filesystem_mtime_utc": "2011-08-20T20:56:59+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_5/channel_11.dat",
+      "house": 5,
+      "archive_size_bytes": 1306605,
+      "archive_sha256": "868991b7fbeda95376b75e9968f5f026306dc504c6c2fb0f4b594cc378f63de8",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_5/channel_11.dat",
+        "size_bytes": 1306605,
+        "sha256": "868991b7fbeda95376b75e9968f5f026306dc504c6c2fb0f4b594cc378f63de8",
+        "filesystem_mtime_utc": "2011-08-20T20:56:54+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_5/channel_8.dat",
+      "house": 5,
+      "archive_size_bytes": 1286676,
+      "archive_sha256": "2ac93555a5ad1824966d7c05d117e1ee37acf61a2166854e175645a02d01dba0",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_5/channel_8.dat",
+        "size_bytes": 1286676,
+        "sha256": "2ac93555a5ad1824966d7c05d117e1ee37acf61a2166854e175645a02d01dba0",
+        "filesystem_mtime_utc": "2011-08-20T20:56:51+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_2/labels.dat",
+      "house": 2,
+      "archive_size_bytes": 138,
+      "archive_sha256": "cec8dce2f8996f6d3bcc2487170ceebc1700c5a10cf785026493824b967d386a",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_2/labels.dat",
+        "size_bytes": 138,
+        "sha256": "cec8dce2f8996f6d3bcc2487170ceebc1700c5a10cf785026493824b967d386a",
+        "filesystem_mtime_utc": "2011-08-20T21:03:40+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_2/channel_5.dat",
+      "house": 2,
+      "archive_size_bytes": 5101890,
+      "archive_sha256": "efc309eaf81d911476f0bb8c3ab4ca424143f00ef06d3c6afa97073ccfbfd642",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_2/channel_5.dat",
+        "size_bytes": 5101890,
+        "sha256": "efc309eaf81d911476f0bb8c3ab4ca424143f00ef06d3c6afa97073ccfbfd642",
+        "filesystem_mtime_utc": "2011-08-20T21:03:24+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_2/channel_9.dat",
+      "house": 2,
+      "archive_size_bytes": 5384501,
+      "archive_sha256": "7704520c9334a73715abcd0e349b72da898ce6878783370224d1466477134eed",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_2/channel_9.dat",
+        "size_bytes": 5384501,
+        "sha256": "7704520c9334a73715abcd0e349b72da898ce6878783370224d1466477134eed",
+        "filesystem_mtime_utc": "2011-08-20T21:03:35+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_2/channel_1.dat",
+      "house": 2,
+      "archive_size_bytes": 20422557,
+      "archive_sha256": "09bce514fb34190a4c4fe40359c91fafaa68f2ee4a96372545195372445378c6",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_2/channel_1.dat",
+        "size_bytes": 20422557,
+        "sha256": "09bce514fb34190a4c4fe40359c91fafaa68f2ee4a96372545195372445378c6",
+        "filesystem_mtime_utc": "2011-08-20T21:03:05+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_2/channel_7.dat",
+      "house": 2,
+      "archive_size_bytes": 5100151,
+      "archive_sha256": "3cba3e5447430cc275e5de43a278e0634d3cbfd733b5ecaf46902dce813e2239",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_2/channel_7.dat",
+        "size_bytes": 5100151,
+        "sha256": "3cba3e5447430cc275e5de43a278e0634d3cbfd733b5ecaf46902dce813e2239",
+        "filesystem_mtime_utc": "2011-08-20T21:03:29+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_2/channel_4.dat",
+      "house": 2,
+      "archive_size_bytes": 5208267,
+      "archive_sha256": "b47ed2e987a147bf2abb6e19e9d50ca9416609dece5c097629e0fda78e557a19",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_2/channel_4.dat",
+        "size_bytes": 5208267,
+        "sha256": "b47ed2e987a147bf2abb6e19e9d50ca9416609dece5c097629e0fda78e557a19",
+        "filesystem_mtime_utc": "2011-08-20T21:03:21+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_2/channel_3.dat",
+      "house": 2,
+      "archive_size_bytes": 5198216,
+      "archive_sha256": "cfa34cda4df0643a167de19a39d1c89f6ac3ed3deb62bed8552a6260808344ce",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_2/channel_3.dat",
+        "size_bytes": 5198216,
+        "sha256": "cfa34cda4df0643a167de19a39d1c89f6ac3ed3deb62bed8552a6260808344ce",
+        "filesystem_mtime_utc": "2011-08-20T21:03:19+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_2/channel_10.dat",
+      "house": 2,
+      "archive_size_bytes": 5110075,
+      "archive_sha256": "6dc5929d95b0d7e43a344d49739560a69db4e42e6f53b0db7827aff71902c6a0",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_2/channel_10.dat",
+        "size_bytes": 5110075,
+        "sha256": "6dc5929d95b0d7e43a344d49739560a69db4e42e6f53b0db7827aff71902c6a0",
+        "filesystem_mtime_utc": "2011-08-20T21:03:38+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_2/channel_2.dat",
+      "house": 2,
+      "archive_size_bytes": 21025409,
+      "archive_sha256": "84743a70e20913ef60e666f4bfbd48a70fb6ec66e5f21e0112564e92a0f9d64d",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_2/channel_2.dat",
+        "size_bytes": 21025409,
+        "sha256": "84743a70e20913ef60e666f4bfbd48a70fb6ec66e5f21e0112564e92a0f9d64d",
+        "filesystem_mtime_utc": "2011-08-20T21:03:16+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_2/channel_6.dat",
+      "house": 2,
+      "archive_size_bytes": 5135599,
+      "archive_sha256": "c120ac718a503facb4679c6637a10df5745609fe52c2be79908d75359050fd11",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_2/channel_6.dat",
+        "size_bytes": 5135599,
+        "sha256": "c120ac718a503facb4679c6637a10df5745609fe52c2be79908d75359050fd11",
+        "filesystem_mtime_utc": "2011-08-20T21:03:27+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_2/channel_11.dat",
+      "house": 2,
+      "archive_size_bytes": 5100187,
+      "archive_sha256": "1e897c5db6fb35edb6264eb4a6fdab4bde5e69256ee469079d55e2813880bb26",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_2/channel_11.dat",
+        "size_bytes": 5100187,
+        "sha256": "1e897c5db6fb35edb6264eb4a6fdab4bde5e69256ee469079d55e2813880bb26",
+        "filesystem_mtime_utc": "2011-08-20T21:03:40+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_2/channel_8.dat",
+      "house": 2,
+      "archive_size_bytes": 5108386,
+      "archive_sha256": "0a1d57448098cc96c0a26b6bffbec99cb4e217789f7fedb9657ad8b5401736fe",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_2/channel_8.dat",
+        "size_bytes": 5108386,
+        "sha256": "0a1d57448098cc96c0a26b6bffbec99cb4e217789f7fedb9657ad8b5401736fe",
+        "filesystem_mtime_utc": "2011-08-20T21:03:32+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_6/channel_16.dat",
+      "house": 6,
+      "archive_size_bytes": 6079563,
+      "archive_sha256": "6c2dcf7e3c4ca6a4792a18f98d685784b44f84196139ce6d4890d916852a13a4",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_6/channel_16.dat",
+        "size_bytes": 6079563,
+        "sha256": "6c2dcf7e3c4ca6a4792a18f98d685784b44f84196139ce6d4890d916852a13a4",
+        "filesystem_mtime_utc": "2011-08-20T21:06:46+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_6/labels.dat",
+      "house": 6,
+      "archive_size_bytes": 259,
+      "archive_sha256": "7e675d849f0f3a67f27b823faa19bbe5ce6293c19bf2e4b656e2f63f93b557e1",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_6/labels.dat",
+        "size_bytes": 259,
+        "sha256": "7e675d849f0f3a67f27b823faa19bbe5ce6293c19bf2e4b656e2f63f93b557e1",
+        "filesystem_mtime_utc": "2011-08-20T21:06:49+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_6/channel_13.dat",
+      "house": 6,
+      "archive_size_bytes": 6040639,
+      "archive_sha256": "503de0b3f34d379895345f7aaea1ffb591f2184771cf25d41004575828d07799",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_6/channel_13.dat",
+        "size_bytes": 6040639,
+        "sha256": "503de0b3f34d379895345f7aaea1ffb591f2184771cf25d41004575828d07799",
+        "filesystem_mtime_utc": "2011-08-20T21:06:36+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_6/channel_17.dat",
+      "house": 6,
+      "archive_size_bytes": 6078486,
+      "archive_sha256": "9bd46f8bb3f3df4785ab27fec8e509abc4503831a8393192d47aabbb1f0a4151",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_6/channel_17.dat",
+        "size_bytes": 6078486,
+        "sha256": "9bd46f8bb3f3df4785ab27fec8e509abc4503831a8393192d47aabbb1f0a4151",
+        "filesystem_mtime_utc": "2011-08-20T21:06:49+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_6/channel_5.dat",
+      "house": 6,
+      "archive_size_bytes": 6032878,
+      "archive_sha256": "423ced5bccaad2dbf1ec2abff30632f77c540630b96f1ae0e1462167860ff066",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_6/channel_5.dat",
+        "size_bytes": 6032878,
+        "sha256": "423ced5bccaad2dbf1ec2abff30632f77c540630b96f1ae0e1462167860ff066",
+        "filesystem_mtime_utc": "2011-08-20T21:06:10+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_6/channel_9.dat",
+      "house": 6,
+      "archive_size_bytes": 6031612,
+      "archive_sha256": "697a0fe8d7d204498911c5a8b9b4860d9f0a5eac10f90ca492f1672f9ed75999",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_6/channel_9.dat",
+        "size_bytes": 6031612,
+        "sha256": "697a0fe8d7d204498911c5a8b9b4860d9f0a5eac10f90ca492f1672f9ed75999",
+        "filesystem_mtime_utc": "2011-08-20T21:06:23+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_6/channel_1.dat",
+      "house": 6,
+      "archive_size_bytes": 15275056,
+      "archive_sha256": "203d4fa7c176a448f219e1dbea2b36526a2df0f737c211768b9969df4d05a742",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_6/channel_1.dat",
+        "size_bytes": 15275056,
+        "sha256": "203d4fa7c176a448f219e1dbea2b36526a2df0f737c211768b9969df4d05a742",
+        "filesystem_mtime_utc": "2011-08-20T21:05:53+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_6/channel_7.dat",
+      "house": 6,
+      "archive_size_bytes": 6032296,
+      "archive_sha256": "af113c339b55aafd4b229e747847c4f306c3c4288a147b1f5ef7652c730a6f4c",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_6/channel_7.dat",
+        "size_bytes": 6032296,
+        "sha256": "af113c339b55aafd4b229e747847c4f306c3c4288a147b1f5ef7652c730a6f4c",
+        "filesystem_mtime_utc": "2011-08-20T21:06:17+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_6/channel_4.dat",
+      "house": 6,
+      "archive_size_bytes": 6031682,
+      "archive_sha256": "76c3c6ada39a560566d2a8d77e5ed2947aec774ff43c08a86d332cf02be2981b",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_6/channel_4.dat",
+        "size_bytes": 6031682,
+        "sha256": "76c3c6ada39a560566d2a8d77e5ed2947aec774ff43c08a86d332cf02be2981b",
+        "filesystem_mtime_utc": "2011-08-20T21:06:07+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_6/channel_3.dat",
+      "house": 6,
+      "archive_size_bytes": 6032044,
+      "archive_sha256": "8f16bedfcbba780464495d44eef6b6050a8c7e84bdb9314b104be19fa2d8d9fe",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_6/channel_3.dat",
+        "size_bytes": 6032044,
+        "sha256": "8f16bedfcbba780464495d44eef6b6050a8c7e84bdb9314b104be19fa2d8d9fe",
+        "filesystem_mtime_utc": "2011-08-20T21:06:04+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_6/channel_10.dat",
+      "house": 6,
+      "archive_size_bytes": 6133998,
+      "archive_sha256": "c055d19ed74feb6855fc44f572c985ea2d681d2d2281c706272486c0764a25d9",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_6/channel_10.dat",
+        "size_bytes": 6133998,
+        "sha256": "c055d19ed74feb6855fc44f572c985ea2d681d2d2281c706272486c0764a25d9",
+        "filesystem_mtime_utc": "2011-08-20T21:06:26+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_6/channel_2.dat",
+      "house": 6,
+      "archive_size_bytes": 16020452,
+      "archive_sha256": "09924d3954d0cc021753a7876206b871a23793f5ea16efba0af04365d844dce2",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_6/channel_2.dat",
+        "size_bytes": 16020452,
+        "sha256": "09924d3954d0cc021753a7876206b871a23793f5ea16efba0af04365d844dce2",
+        "filesystem_mtime_utc": "2011-08-20T21:06:01+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_6/channel_14.dat",
+      "house": 6,
+      "archive_size_bytes": 6697921,
+      "archive_sha256": "930c515437822b328f3b1b9efc9522c7a88a4499f68362ff581e81a3de15a5ae",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_6/channel_14.dat",
+        "size_bytes": 6697921,
+        "sha256": "930c515437822b328f3b1b9efc9522c7a88a4499f68362ff581e81a3de15a5ae",
+        "filesystem_mtime_utc": "2011-08-20T21:06:39+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_6/channel_12.dat",
+      "house": 6,
+      "archive_size_bytes": 6182443,
+      "archive_sha256": "ba01af383a550553a85d39d9756d80a43e50a24aded356e68dd748ac9e26481f",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_6/channel_12.dat",
+        "size_bytes": 6182443,
+        "sha256": "ba01af383a550553a85d39d9756d80a43e50a24aded356e68dd748ac9e26481f",
+        "filesystem_mtime_utc": "2011-08-20T21:06:33+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_6/channel_6.dat",
+      "house": 6,
+      "archive_size_bytes": 6039775,
+      "archive_sha256": "0083d075983aa099d557635c6d556ff316666dce00eb05c40133a207f1af3692",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_6/channel_6.dat",
+        "size_bytes": 6039775,
+        "sha256": "0083d075983aa099d557635c6d556ff316666dce00eb05c40133a207f1af3692",
+        "filesystem_mtime_utc": "2011-08-20T21:06:14+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_6/channel_15.dat",
+      "house": 6,
+      "archive_size_bytes": 6077499,
+      "archive_sha256": "ae3c95dbf7d317b0f5feef97e3db11c7b0d24818e31ec59a3db2568fd87a8e89",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_6/channel_15.dat",
+        "size_bytes": 6077499,
+        "sha256": "ae3c95dbf7d317b0f5feef97e3db11c7b0d24818e31ec59a3db2568fd87a8e89",
+        "filesystem_mtime_utc": "2011-08-20T21:06:43+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_6/channel_11.dat",
+      "house": 6,
+      "archive_size_bytes": 6143270,
+      "archive_sha256": "fe09b9b58017071ddb1d6242f23fa7982f36f67a2240ad56b6e8987a1fd5418c",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_6/channel_11.dat",
+        "size_bytes": 6143270,
+        "sha256": "fe09b9b58017071ddb1d6242f23fa7982f36f67a2240ad56b6e8987a1fd5418c",
+        "filesystem_mtime_utc": "2011-08-20T21:06:30+00:00"
+      },
+      "status": "matched"
+    },
+    {
+      "archive_member": "low_freq/house_6/channel_8.dat",
+      "house": 6,
+      "archive_size_bytes": 6418392,
+      "archive_sha256": "690af68da7083fbfaac6347aac7d253739548cf3d961d42860b147b573e92dae",
+      "local": {
+        "path": "REDD_RELEASE/low_freq/house_6/channel_8.dat",
+        "size_bytes": 6418392,
+        "sha256": "690af68da7083fbfaac6347aac7d253739548cf3d961d42860b147b573e92dae",
+        "filesystem_mtime_utc": "2011-08-20T21:06:20+00:00"
+      },
+      "status": "matched"
+    }
+  ],
+  "houses": {
+    "1": {
+      "channel_file_count": 20,
+      "channel_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "mains_channels": [
+        1,
+        2
+      ],
+      "circuit_channel_count": 18,
+      "labels_present": true,
+      "canonical_file_count": 21,
+      "canonical_uncompressed_size_bytes": 272545986,
+      "matched_file_count": 21
+    },
+    "2": {
+      "channel_file_count": 11,
+      "channel_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "mains_channels": [
+        1,
+        2
+      ],
+      "circuit_channel_count": 9,
+      "labels_present": true,
+      "canonical_file_count": 12,
+      "canonical_uncompressed_size_bytes": 87895376,
+      "matched_file_count": 12
+    },
+    "3": {
+      "channel_file_count": 22,
+      "channel_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "mains_channels": [
+        1,
+        2
+      ],
+      "circuit_channel_count": 20,
+      "labels_present": true,
+      "canonical_file_count": 23,
+      "canonical_uncompressed_size_bytes": 181670804,
+      "matched_file_count": 23
+    },
+    "4": {
+      "channel_file_count": 20,
+      "channel_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "mains_channels": [
+        1,
+        2
+      ],
+      "circuit_channel_count": 18,
+      "labels_present": true,
+      "canonical_file_count": 21,
+      "canonical_uncompressed_size_bytes": 225109796,
+      "matched_file_count": 21
+    },
+    "5": {
+      "channel_file_count": 26,
+      "channel_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "mains_channels": [
+        1,
+        2
+      ],
+      "circuit_channel_count": 24,
+      "labels_present": true,
+      "canonical_file_count": 27,
+      "canonical_uncompressed_size_bytes": 42036336,
+      "matched_file_count": 27
+    },
+    "6": {
+      "channel_file_count": 17,
+      "channel_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "mains_channels": [
+        1,
+        2
+      ],
+      "circuit_channel_count": 15,
+      "labels_present": true,
+      "canonical_file_count": 18,
+      "canonical_uncompressed_size_bytes": 123348265,
+      "matched_file_count": 18
+    }
+  },
+  "independent_official_archive_checksum_available": false,
+  "archive": {
+    "path": "REDD_RELEASE/low_freq.tar.bz2",
+    "size_bytes": 169367706,
+    "sha256": "9911f3fd7d8c7fe89a3ce4634374917fa52a536103cd203cd6e7fa7ccb0ef420",
+    "filesystem_mtime_utc": "2017-04-07T15:40:34+00:00"
+  },
+  "ignored_local_entries": [
+    ".DS_Store",
+    "house_2 copy"
+  ],
+  "supporting_files": {
+    "readme.txt": {
+      "path": "REDD_RELEASE/readme.txt",
+      "size_bytes": 8261,
+      "sha256": "017cb93fa886c276bf2ea4a6c4f139db1b1fc4607090be3bbfc4ec9668dbe9f9",
+      "filesystem_mtime_utc": "2017-04-07T15:36:43+00:00"
+    },
+    "kolter-kddsust11.pdf": {
+      "path": "REDD_RELEASE/kolter-kddsust11.pdf",
+      "size_bytes": 890569,
+      "sha256": "b29ebdc6532dcc5934519298d4c201f58310893650229f73d7732256445eaf8c",
+      "filesystem_mtime_utc": "2017-04-07T15:40:19+00:00"
+    }
+  },
+  "readme_evidence": {
+    "release_version_as_documented": "1.0",
+    "original_site_as_documented": "http://redd.csail.mit.edu",
+    "native_cadence_as_documented": "About once a second for mains and once every three seconds for circuits.",
+    "timestamp_format_as_documented": "UTC timestamps as integers.",
+    "measurement_type_as_documented": "Apparent power of the circuit (README wording; not independently validated).",
+    "labels_as_documented": "General category or main appliance type on the circuit, potentially multiple device types.",
+    "citation_requested": "Kolter and Johnson, SustKDD 2011.",
+    "formal_license_identified_in_readme": false,
+    "measurement_type_caveat": "NILMTK assigns apparent power to mains and active power to other channels, unlike this README."
+  },
+  "totals": {
+    "archive_member_count": 129,
+    "archive_regular_file_count": 122,
+    "archive_directory_count": 7,
+    "canonical_file_count": 122,
+    "channel_file_count": 116,
+    "label_file_count": 6,
+    "canonical_uncompressed_size_bytes": 932606563,
+    "matched_file_count": 122
+  },
+  "verification_passed": true,
+  "verification_finished_utc": "2026-10-26T01:55:52.373168+00:00",
+  "elapsed_seconds": 11.794
+}

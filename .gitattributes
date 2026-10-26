@@ -2,3 +2,5 @@
 docs/source/whitepaper/analysis/DataWrangle_REDD/* -text -whitespace
 # csv.DictWriter emits valid CRLF records; keep their bytes reproducible.
 docs/source/whitepaper/data/*.csv -text whitespace=cr-at-eol
+docs/source/whitepaper/data/**/*.csv -text whitespace=cr-at-eol
+docs/source/whitepaper/analysis/fresh_audit/work/DataWrangle_REDD/* -text -whitespace
